@@ -1,0 +1,7 @@
+#Mon Feb 03 14:03:18 ICT 2020
+base.0=D\:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
