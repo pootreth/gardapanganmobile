@@ -1080,6 +1080,8 @@ id blocking
 id bottom
 id button
 id button2
+id buttonDaftar
+id buttonDaftar2
 id buttonPanel
 id caption1
 id caption2
@@ -1096,6 +1098,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id confirmpasswd
 id container
 id content
 id contentPanel
@@ -1117,6 +1120,7 @@ id editPasswd
 id editText
 id editText3
 id edit_query
+id email
 id end
 id endText
 id enterAlways
@@ -1174,6 +1178,7 @@ id namabelakang
 id namadepan
 id navigation_header_container
 id never
+id newpasswd
 id nomorwa
 id none
 id normal
@@ -1340,7 +1345,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_main_gold
 layout activity_register
+layout activity_register1
+layout activity_register2
 layout content_main
 layout custom_action_daftar
 layout custom_action_masuk

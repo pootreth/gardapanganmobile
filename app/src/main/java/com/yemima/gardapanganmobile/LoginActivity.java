@@ -58,8 +58,14 @@ public class LoginActivity extends AppCompatActivity {
         masuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(email.getText().toString().equals("golduser@gmail.com")){
+                    Intent pindahmain=new Intent(LoginActivity.this, MainGoldActivity.class);
+                    startActivity(pindahmain);
+                }
+                else{
                 Intent pindahmain=new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(pindahmain);
+                }
             }
         });
         TextView daftar=findViewById(R.id.textView3);

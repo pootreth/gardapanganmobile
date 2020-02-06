@@ -11,13 +11,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class RegisterActivity extends AppCompatActivity {
-    private EditText namadepan;
-    private EditText namabelakang;
-    private EditText nomorwa;
-    private EditText umur;
-    private EditText pekerjaan;
-    private Button lanjut;
+public class Register1Activity extends AppCompatActivity {
+    private EditText email;
+    private EditText newpasswd;
+    private EditText confirmpasswd;
+    private Button daftar;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -38,11 +36,11 @@ public class RegisterActivity extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
-            if(!namadepan.getText().toString().isEmpty()&&!namabelakang.getText().toString().isEmpty()&&!nomorwa.getText().toString().isEmpty()&&!umur.getText().toString().isEmpty()){
-                lanjut.setEnabled(true);
+            if(!email.getText().toString().isEmpty()&&!newpasswd.getText().toString().isEmpty()&&!confirmpasswd.getText().toString().isEmpty()){
+                daftar.setEnabled(true);
             }
             else{
-                lanjut.setEnabled(false);
+                daftar.setEnabled(false);
             }
         }
     };
@@ -50,7 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_register1);
 
         this.getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);;
         getSupportActionBar().setDisplayShowCustomEnabled(true);
@@ -58,24 +56,19 @@ public class RegisterActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        namadepan=findViewById(R.id.namadepan);
-        namabelakang=findViewById(R.id.namabelakang);
-        nomorwa=findViewById(R.id.nomorwa);
-        umur=findViewById(R.id.umur);
-        pekerjaan=findViewById(R.id.pekerjaan);
-        lanjut=findViewById(R.id.button2);
+        email=findViewById(R.id.email);
+        newpasswd=findViewById(R.id.newpasswd);
+        confirmpasswd=findViewById(R.id.confirmpasswd);
 
-        namadepan.addTextChangedListener(textWatcher);
-        namabelakang.addTextChangedListener(textWatcher);
-        nomorwa.addTextChangedListener(textWatcher);
-        umur.addTextChangedListener(textWatcher);
-        pekerjaan.addTextChangedListener(textWatcher);
+        email.addTextChangedListener(textWatcher);
+        newpasswd.addTextChangedListener(textWatcher);
+        confirmpasswd.addTextChangedListener(textWatcher);
 
 
-        lanjut.setOnClickListener(new View.OnClickListener() {
+        daftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pindahmain=new Intent(RegisterActivity.this, Register1Activity.class);
+                Intent pindahmain=new Intent(Register1Activity.this, Register2Activity.class);
                 startActivity(pindahmain);
             }
         });

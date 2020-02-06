@@ -1721,11 +1721,11 @@
                 {
                     "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "-1,2,-1,-1",
-                        "startColumns": "-1,4,-1,-1",
-                        "startOffsets": "-1,57,-1,-1",
-                        "endColumns": "-1,46,-1,-1",
-                        "endOffsets": "-1,99,-1,-1"
+                        "startLines": "5,-1,-1,-1",
+                        "startColumns": "4,-1,-1,-1",
+                        "startOffsets": "214,-1,-1,-1",
+                        "endColumns": "45,-1,-1,-1",
+                        "endOffsets": "255,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "192,193,194,195",
