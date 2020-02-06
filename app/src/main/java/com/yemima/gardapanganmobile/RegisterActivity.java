@@ -2,21 +2,32 @@ package com.yemima.gardapanganmobile;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RegisterActivity extends AppCompatActivity {
     private EditText namadepan;
     private EditText namabelakang;
     private EditText nomorwa;
     private EditText umur;
-    private EditText pekerjaan;
     private Button lanjut;
 
     @Override
@@ -62,14 +73,69 @@ public class RegisterActivity extends AppCompatActivity {
         namabelakang=findViewById(R.id.namabelakang);
         nomorwa=findViewById(R.id.nomorwa);
         umur=findViewById(R.id.umur);
-        pekerjaan=findViewById(R.id.pekerjaan);
         lanjut=findViewById(R.id.button2);
+
+        Spinner spinner=findViewById(R.id.spinner);
+        List<String> pekerjaan=new ArrayList<>();
+        pekerjaan.add("Pekerjaan");
+        pekerjaan.add("Pelajar");
+        pekerjaan.add("Mahasiswa");
+        pekerjaan.add("Lain-lain");
+
+        // Initializing an ArrayAdapter
+        final ArrayAdapter<String> dataadapter = new ArrayAdapter<String>(
+                this,R.layout.spinner_item,pekerjaan){
+            @Override
+            public boolean isEnabled(int position){
+                if(position == 0)
+                {
+                    // Disable the first item from Spinner
+                    // First item will be use for hint
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            @Override
+            public View getDropDownView(int position, View convertView,
+                                        ViewGroup parent) {
+                View view = super.getDropDownView(position, convertView, parent);
+                TextView tv = (TextView) view;
+                Typeface typeface = ResourcesCompat.getFont(RegisterActivity.this, R.font.googlesans_regular);
+                tv.setTypeface(typeface);
+
+                if(position == 0){
+                    // Set the hint text color gray
+                    tv.setTextColor(getResources().getColor(R.color.colorPrimaryOpacity));
+                }
+                else {
+                    tv.setTextColor(getResources().getColor(R.color.colorPrimary));
+                }
+                return view;
+            }
+        };
+
+        dataadapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+        spinner.setAdapter(dataadapter);
+
+//        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//            @Override
+//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+//
+//            }
+//
+//            @Override
+//            public void onNothingSelected(AdapterView<?> parent) {
+//
+//            }
+//        });
 
         namadepan.addTextChangedListener(textWatcher);
         namabelakang.addTextChangedListener(textWatcher);
         nomorwa.addTextChangedListener(textWatcher);
         umur.addTextChangedListener(textWatcher);
-        pekerjaan.addTextChangedListener(textWatcher);
 
 
         lanjut.setOnClickListener(new View.OnClickListener() {

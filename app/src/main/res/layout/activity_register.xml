@@ -17,7 +17,7 @@
             android:id="@+id/button2"
             android:layout_width="300sp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="44dp"
+            android:layout_marginBottom="68dp"
             android:background="@drawable/button_selector"
             android:enabled="false"
             android:saveEnabled="true"
@@ -34,7 +34,7 @@
             android:id="@+id/namadepan"
             android:layout_width="200sp"
             android:layout_height="50sp"
-            android:layout_marginBottom="400dp"
+            android:layout_marginBottom="420dp"
             android:background="@drawable/round_edittext"
             android:ems="10"
             android:fontFamily="@font/googlesans_regular"
@@ -53,7 +53,7 @@
             android:id="@+id/namabelakang"
             android:layout_width="200sp"
             android:layout_height="50sp"
-            android:layout_marginBottom="328dp"
+            android:layout_marginBottom="348dp"
             android:background="@drawable/round_edittext"
             android:ems="10"
             android:fontFamily="@font/googlesans_regular"
@@ -72,7 +72,7 @@
             android:id="@+id/umur"
             android:layout_width="85sp"
             android:layout_height="50sp"
-            android:layout_marginBottom="188dp"
+            android:layout_marginBottom="208dp"
             android:background="@drawable/round_edittext"
             android:ems="10"
             android:fontFamily="@font/googlesans_regular"
@@ -88,30 +88,10 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            android:id="@+id/pekerjaan"
-            android:layout_width="250sp"
-            android:layout_height="50sp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="188dp"
-            android:background="@drawable/round_edittext"
-            android:ems="10"
-            android:fontFamily="@font/googlesans_regular"
-            android:hint="Pekerjaan"
-            android:inputType="text"
-            android:paddingStart="20sp"
-            android:textColor="@color/colorPrimary"
-            android:textColorHint="@color/colorPrimaryOpacity"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.833"
-            app:layout_constraintStart_toEndOf="@+id/umur" />
-
-        <EditText
             android:id="@+id/nomorwa"
             android:layout_width="350sp"
             android:layout_height="50sp"
-            android:layout_marginBottom="256dp"
+            android:layout_marginBottom="276dp"
             android:background="@drawable/round_edittext"
             android:ems="10"
             android:fontFamily="@font/googlesans_regular"
@@ -130,9 +110,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_width="188sp"
+            android:layout_height="87sp"
+            android:layout_marginTop="46dp"
             android:layout_marginBottom="500dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -175,7 +155,7 @@
             android:layout_height="130sp"
             android:layout_marginStart="28dp"
             android:layout_marginEnd="28dp"
-            android:layout_marginBottom="22dp"
+            android:layout_marginBottom="17dp"
             app:layout_constraintBottom_toTopOf="@+id/nomorwa"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/namadepan"
@@ -193,13 +173,16 @@
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/pekerjaan"
-            app:layout_constraintEnd_toEndOf="@+id/pekerjaan"
-            app:layout_constraintHorizontal_bias="0.985"
-            app:layout_constraintStart_toStartOf="@+id/pekerjaan"
-            app:layout_constraintTop_toTopOf="@+id/pekerjaan" />
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="208dp"
+            android:background="@drawable/spinner_background"
+            android:paddingStart="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/umur" />
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -208,7 +191,7 @@
             android:layout_height="28sp"
             android:layout_marginStart="63dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginBottom="37dp"
+            android:layout_marginBottom="36dp"
             app:layout_constraintBottom_toTopOf="@+id/button2"
             app:layout_constraintEnd_toStartOf="@+id/textView8"
             app:layout_constraintStart_toStartOf="parent" />
@@ -219,7 +202,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="116dp"
             android:layout_marginEnd="96dp"
-            android:layout_marginBottom="19dp"
+            android:layout_marginBottom="22dp"
             android:fontFamily="@font/googlesans_regular"
             android:text="yang ditentukan oleh Garda Pangan."
             android:textColor="@color/colorPrimary"
@@ -234,7 +217,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="1dp"
             android:layout_marginEnd="128dp"
-            android:layout_marginBottom="129dp"
+            android:layout_marginBottom="156dp"
             android:fontFamily="@font/googlesans_regular"
             android:text=" yang telah"
             android:textColor="@color/colorPrimary"
@@ -248,7 +231,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="116dp"
-            android:layout_marginBottom="129dp"
+            android:layout_marginBottom="156dp"
             android:fontFamily="@font/googlesans_medium"
             android:text="@string/syarat_ketentuan"
             android:textColor="@color/colorPrimary"
@@ -268,6 +251,7 @@
             android:textSize="12sp"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/checkBox" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21,6 +21,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.RegisterEndActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.Register3Activity" />
         <activity android:name="com.yemima.gardapanganmobile.MainGoldActivity" />
         <activity android:name="com.yemima.gardapanganmobile.Register2Activity" />
         <activity android:name="com.yemima.gardapanganmobile.Register1Activity" />

@@ -7,13 +7,13 @@
     tools:context=".Register2Activity">
 
     <Button
-        android:id="@+id/buttonDaftar2"
+        android:id="@+id/lanjut"
         android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:background="@drawable/button_selector"
         android:saveEnabled="true"
-        android:text="DAFTAR"
+        android:text="LANJUT"
         android:textColor="@android:color/white"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -21,4 +21,59 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/bronzemedal" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="62sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/silvermedal" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="62sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/goldmedal" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="255.67sp"
+        android:layout_height="40.65sp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/badgestext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:gravity="center"
+        android:text="BADGES"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

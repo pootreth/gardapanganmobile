@@ -59,11 +59,11 @@ public class Register1Activity extends AppCompatActivity {
         email=findViewById(R.id.email);
         newpasswd=findViewById(R.id.newpasswd);
         confirmpasswd=findViewById(R.id.confirmpasswd);
+        daftar=findViewById(R.id.daftar);
 
         email.addTextChangedListener(textWatcher);
         newpasswd.addTextChangedListener(textWatcher);
         confirmpasswd.addTextChangedListener(textWatcher);
-
 
         daftar.setOnClickListener(new View.OnClickListener() {
             @Override
