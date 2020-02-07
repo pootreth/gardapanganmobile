@@ -37,7 +37,12 @@ public class Register1Activity extends AppCompatActivity {
         @Override
         public void afterTextChanged(Editable s) {
             if(!email.getText().toString().isEmpty()&&!newpasswd.getText().toString().isEmpty()&&!confirmpasswd.getText().toString().isEmpty()){
-                daftar.setEnabled(true);
+                if(newpasswd.getText().toString().equals(confirmpasswd.getText().toString())) {
+                    daftar.setEnabled(true);
+                }
+                else {
+                    daftar.setEnabled(false);
+                }
             }
             else{
                 daftar.setEnabled(false);

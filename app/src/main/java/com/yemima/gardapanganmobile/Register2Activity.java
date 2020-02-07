@@ -10,16 +10,10 @@ import android.widget.Button;
 public class Register2Activity extends AppCompatActivity {
     private Button lanjut;
 
-
-//    @Override
-//    public boolean onSupportNavigateUp() {
-//        onBackPressed();
-//        return true;
-//    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //ilangin header
         try
             {
                 this.getSupportActionBar().hide();

@@ -13,6 +13,7 @@ public class Register3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //ilangin header
         try
         {
             this.getSupportActionBar().hide();

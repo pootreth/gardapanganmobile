@@ -50,7 +50,12 @@ public class RegisterActivity extends AppCompatActivity {
         @Override
         public void afterTextChanged(Editable s) {
             if(!namadepan.getText().toString().isEmpty()&&!namabelakang.getText().toString().isEmpty()&&!nomorwa.getText().toString().isEmpty()&&!umur.getText().toString().isEmpty()){
-                lanjut.setEnabled(true);
+                if(nomorwa.length()>9 && umur.length()==2) {
+                    lanjut.setEnabled(true);
+                }
+                else{
+                    lanjut.setEnabled(false);
+                }
             }
             else{
                 lanjut.setEnabled(false);
