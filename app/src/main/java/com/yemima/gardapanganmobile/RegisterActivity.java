@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.Editable;
@@ -17,7 +16,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -29,6 +27,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText nomorwa;
     private EditText umur;
     private Button lanjut;
+    private String job;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -74,14 +73,14 @@ public class RegisterActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        namadepan=findViewById(R.id.namadepan);
+        namadepan=findViewById(R.id.fname);
         namabelakang=findViewById(R.id.namabelakang);
         nomorwa=findViewById(R.id.nomorwa);
         umur=findViewById(R.id.umur);
         lanjut=findViewById(R.id.button2);
 
         Spinner spinner=findViewById(R.id.spinner);
-        List<String> pekerjaan=new ArrayList<>();
+        final List<String> pekerjaan=new ArrayList<>();
         pekerjaan.add("Pekerjaan");
         pekerjaan.add("Pelajar");
         pekerjaan.add("Mahasiswa");
@@ -124,6 +123,17 @@ public class RegisterActivity extends AppCompatActivity {
 
         dataadapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spinner.setAdapter(dataadapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                job=parent.getItemAtPosition(position).toString();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+    }
+});
 
         namadepan.addTextChangedListener(textWatcher);
         namabelakang.addTextChangedListener(textWatcher);
@@ -135,6 +145,11 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent pindahmain=new Intent(RegisterActivity.this, Register1Activity.class);
+                pindahmain.putExtra("namadepan", namadepan.getText().toString());
+                pindahmain.putExtra("namabelakang",namabelakang.getText().toString());
+                pindahmain.putExtra("nomorwa", nomorwa.getText().toString());
+                pindahmain.putExtra("umur",umur.getText().toString());
+                pindahmain.putExtra("pekerjaan",job);
                 startActivity(pindahmain);
             }
         });

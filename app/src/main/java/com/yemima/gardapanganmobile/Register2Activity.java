@@ -13,6 +13,13 @@ public class Register2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //copas
+        Bundle bundle=getIntent().getExtras();
+        final String namadepan=bundle.getString("namadepan");
+        final String namabelakang=bundle.getString("namabelakang");
+        final String nomorwa=bundle.getString("nomorwa");
+        final String pekerjaan=bundle.getString("pekerjaan");
+        final String umur=bundle.getString("umur");
         //ilangin header
         try
             {
@@ -27,6 +34,12 @@ public class Register2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent pindahmain = new Intent(Register2Activity.this, Register3Activity.class);
+                //copas
+                pindahmain.putExtra("namadepan", namadepan);
+                pindahmain.putExtra("namabelakang",namabelakang);
+                pindahmain.putExtra("nomorwa", nomorwa);
+                pindahmain.putExtra("umur",umur);
+                pindahmain.putExtra("pekerjaan",pekerjaan);
                 startActivity(pindahmain);
             }
 

@@ -54,6 +54,13 @@ public class Register1Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register1);
+        //copas
+        Bundle bundle=getIntent().getExtras();
+        final String namadepan=bundle.getString("namadepan");
+        final String namabelakang=bundle.getString("namabelakang");
+        final String nomorwa=bundle.getString("nomorwa");
+        final String pekerjaan=bundle.getString("pekerjaan");
+        final String umur=bundle.getString("umur");
 
         this.getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);;
         getSupportActionBar().setDisplayShowCustomEnabled(true);
@@ -74,6 +81,12 @@ public class Register1Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent pindahmain=new Intent(Register1Activity.this, Register2Activity.class);
+                //copas
+                pindahmain.putExtra("namadepan", namadepan);
+                pindahmain.putExtra("namabelakang",namabelakang);
+                pindahmain.putExtra("nomorwa", nomorwa);
+                pindahmain.putExtra("umur",umur);
+                pindahmain.putExtra("pekerjaan",pekerjaan);
                 startActivity(pindahmain);
             }
         });
