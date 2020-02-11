@@ -26,7 +26,7 @@
         android:id="@+id/bronzemedals"
         android:layout_width="62sp"
         android:layout_height="62sp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="31dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/badges"
@@ -36,7 +36,7 @@
         android:id="@+id/silvermedals"
         android:layout_width="62sp"
         android:layout_height="62sp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bronzemedals"
@@ -46,7 +46,7 @@
         android:id="@+id/goldmedals"
         android:layout_width="62sp"
         android:layout_height="62sp"
-        android:layout_marginStart="55dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/silvermedals"
@@ -105,25 +105,29 @@
 
     <TextView
         android:id="@+id/bronzeinfo"
-        android:layout_width="213dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="50dp"
         android:fontFamily="@font/googlesans_regular"
         android:text="Food Heroes yang mengikuti 1 - 3 kali Food Rescue"
         android:textColor="@color/colorPrimary"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bronzemedals"
         app:layout_constraintTop_toBottomOf="@+id/bronze" />
 
     <TextView
         android:id="@+id/silverinfo"
-        android:layout_width="213dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="50dp"
         android:fontFamily="@font/googlesans_regular"
         android:text="Food Heroes yang mengikuti 4 kali Food Rescue atau lebih"
         android:textColor="@color/colorPrimary"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/silvermedals"
         app:layout_constraintTop_toBottomOf="@+id/silver" />
 
@@ -142,13 +146,15 @@
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="50dp"
         android:fontFamily="@font/googlesans_regular"
         android:text="Relawan tetap (Koordinator)"
         android:textColor="@color/colorPrimary"
         android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/goldmedals"
         app:layout_constraintTop_toBottomOf="@+id/gold" />
 

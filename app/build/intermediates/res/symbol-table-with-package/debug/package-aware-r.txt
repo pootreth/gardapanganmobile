@@ -1375,6 +1375,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_main_gold
+layout activity_profile
 layout activity_register
 layout activity_register1
 layout activity_register2
@@ -1384,6 +1385,7 @@ layout content_main
 layout content_main_gold
 layout custom_action_daftar
 layout custom_action_masuk
+layout custom_action_profile
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

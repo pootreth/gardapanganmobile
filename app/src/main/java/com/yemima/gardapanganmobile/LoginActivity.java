@@ -32,9 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         @Override
         public void afterTextChanged(Editable s) {
             if(!email.getText().toString().isEmpty()&&!password.getText().toString().isEmpty()){
-                if(String.format(email.getText().toString())){
-                    masuk.setEnabled(true);
-                }
+                masuk.setEnabled(true);
             }
             else{
                 masuk.setEnabled(false);

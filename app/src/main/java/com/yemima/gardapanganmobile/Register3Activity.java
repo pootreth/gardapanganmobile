@@ -26,7 +26,7 @@ public class Register3Activity extends AppCompatActivity {
         lanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pindahmain = new Intent(Register3Activity.this, RegisterEndActivity.class);
+                Intent pindahmain = new Intent(Register3Activity.this, ProfileActivity.class);
                 startActivity(pindahmain);
             }
 

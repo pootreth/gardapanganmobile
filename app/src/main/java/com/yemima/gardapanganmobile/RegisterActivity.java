@@ -125,18 +125,6 @@ public class RegisterActivity extends AppCompatActivity {
         dataadapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spinner.setAdapter(dataadapter);
 
-//        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-//            @Override
-//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-//
-//            }
-//
-//            @Override
-//            public void onNothingSelected(AdapterView<?> parent) {
-//
-//            }
-//        });
-
         namadepan.addTextChangedListener(textWatcher);
         namabelakang.addTextChangedListener(textWatcher);
         nomorwa.addTextChangedListener(textWatcher);
