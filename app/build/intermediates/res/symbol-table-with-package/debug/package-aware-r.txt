@@ -1013,6 +1013,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dp
 drawable dropdown
+drawable edit
 drawable food
 drawable goldmedal
 drawable ic_launcher_background
@@ -1040,6 +1041,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable profile
 drawable round_edittext
 drawable search_button
 drawable silvermedal
@@ -1178,6 +1180,7 @@ id imageView4
 id imageView5
 id imageView6
 id imageView7
+id imageView8
 id info
 id invisible
 id italic
@@ -1228,6 +1231,7 @@ id pekerjaan
 id people
 id percent
 id pin
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -1381,6 +1385,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_badges_pages
 layout activity_login
 layout activity_main
 layout activity_main_gold
@@ -1392,6 +1397,7 @@ layout activity_register3
 layout activity_register_end
 layout content_main
 layout content_main_gold
+layout custom_action_badges
 layout custom_action_daftar
 layout custom_action_masuk
 layout custom_action_profile
