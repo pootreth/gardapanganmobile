@@ -64,6 +64,11 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else{
                 Intent pindahmain=new Intent(LoginActivity.this, MainActivity.class);
+                    pindahmain.putExtra("namadepan", "0");
+                    pindahmain.putExtra("namabelakang","0");
+                    pindahmain.putExtra("nomorwa", "0");
+                    pindahmain.putExtra("umur","0");
+                    pindahmain.putExtra("pekerjaan","0");
                 startActivity(pindahmain);
                 }
             }

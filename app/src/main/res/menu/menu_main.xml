@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_profiles"
+        android:icon="@drawable/profile"
+        android:orderInCategory="100"
+        android:title="Badges"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_profiles"
+        android:icon="@drawable/profile"
+        android:orderInCategory="100"
+        android:title="S.O.P."
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_profiles"
+        android:icon="@drawable/profile"
+        android:orderInCategory="100"
+        android:title="Bantuan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_profiles"
+        android:icon="@drawable/profile"
+        android:orderInCategory="100"
+        android:title="Keluar"
+        app:showAsAction="never" />
+</menu>

@@ -14,8 +14,8 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="81dp"
-            android:background="@android:color/background_light"
+            android:layout_height="81sp"
+            android:background="@android:color/white"
             android:foregroundGravity="center"
             app:buttonGravity="top"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
@@ -23,14 +23,5 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
-
-    <ImageView
-        android:id="@+id/profile"
-        android:layout_width="65sp"
-        android:layout_height="65sp"
-        android:layout_gravity="right"
-        android:foregroundGravity="right"
-        app:layout_anchorGravity="center|right"
-        app:srcCompat="@drawable/profile" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

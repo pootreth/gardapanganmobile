@@ -11,11 +11,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.res.ResourcesCompat;
 
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -23,96 +26,54 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private ImageButton photo;
+    private String namadepan;
+    private String namabelakang;
+    private String nomorwa;
+    private String pekerjaan;
+    private String umur;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //copas
         Bundle bundle=getIntent().getExtras();
-        final String namadepan=bundle.getString("namadepan");
-        final String namabelakang=bundle.getString("namabelakang");
-        final String nomorwa=bundle.getString("nomorwa");
-        final String pekerjaan=bundle.getString("pekerjaan");
-        final String umur=bundle.getString("umur");
+        namadepan=bundle.getString("namadepan");
+        namabelakang=bundle.getString("namabelakang");
+        nomorwa=bundle.getString("nomorwa");
+        pekerjaan=bundle.getString("pekerjaan");
+        umur=bundle.getString("umur");
 
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Spinner spinner=findViewById(R.id.spinner);
-        final List<String> profile=new ArrayList<>();
-        profile.add("Profil");
-        profile.add("Badges");
-        profile.add("S.O.P.");
-        profile.add("Bantuan");
-        profile.add("Keluar");
+    }
 
-        // Initializing an ArrayAdapter
-        final ArrayAdapter<String> dataadapter = new ArrayAdapter<String>(
-                this,R.layout.spinner_item,profile){
-            @Override
-            public boolean isEnabled(int position){
-                if(position == 0)
-                {
-                    // Disable the first item from Spinner
-                    // First item will be use for hint
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
-            }
-            @Override
-            public View getDropDownView(int position, View convertView,
-                                        ViewGroup parent) {
-                View view = super.getDropDownView(position, convertView, parent);
-                TextView tv = (TextView) view;
-                Typeface typeface = ResourcesCompat.getFont(MainActivity.this, R.font.googlesans_regular);
-                tv.setTypeface(typeface);
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
 
-                if(position == 0){
-                    // Set the hint text color gray
-                    tv.setTextColor(getResources().getColor(R.color.colorPrimaryOpacity));
-                }
-                else {
-                    tv.setTextColor(getResources().getColor(R.color.colorPrimary));
-                }
-                return view;
-            }
-        };
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
 
-        dataadapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
-        spinner.setAdapter(dataadapter);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                photo=parent.getItemAtPosition(photo).toString();
-            }
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_profile) {
+            Intent pindahmain= new Intent(MainActivity.this, ProfileActivity.class);
+            pindahmain.putExtra("namadepan", namadepan);
+            pindahmain.putExtra("namabelakang",namabelakang);
+            pindahmain.putExtra("nomorwa", nomorwa);
+            pindahmain.putExtra("umur",umur);
+            pindahmain.putExtra("pekerjaan",pekerjaan);
+            startActivity(pindahmain);
+        }
 
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
-            }
-        });
-
-        photo=findViewById(R.id.profile);
-
-        photo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent pindahmain = new Intent(MainActivity.this, ProfileActivity.class);
-                //copas
-                pindahmain.putExtra("namadepan", namadepan);
-                pindahmain.putExtra("namabelakang",namabelakang);
-                pindahmain.putExtra("nomorwa", nomorwa);
-                pindahmain.putExtra("umur",umur);
-                pindahmain.putExtra("pekerjaan",pekerjaan);
-                startActivity(pindahmain);
-            }
-
-        });
-
+        return super.onOptionsItemSelected(item);
     }
 }

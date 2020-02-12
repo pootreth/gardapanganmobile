@@ -3,35 +3,35 @@
 3    package="com.yemima.gardapanganmobile.test" >
 4
 5    <uses-sdk
-5-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:5:5-74
+5-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:5:15-41
+6-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:5:42-71
+7-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:11:5-15:78
+9-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:11:5-15:78
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:11:22-76
+10-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:14:22-52
+11-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:13:22-53
+12-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:13:22-53
 13        android:label="Tests for com.yemima.gardapanganmobile"
-13-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:15:22-76
+13-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:15:22-76
 14        android:targetPackage="com.yemima.gardapanganmobile" />
-14-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:12:22-74
+14-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:12:22-74
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.1.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\61e5e7e4c8c93d43f3f06edf87848d5f\core-1.1.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.1.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\61e5e7e4c8c93d43f3f06edf87848d5f\core-1.1.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:7:5-9:19
-18-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:7:18-43
+18-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:7:5-9:19
+18-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:8:9-60
-19-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1756220284671716708.xml:8:23-57
+19-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:8:9-60
+19-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8040960818743479659.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.1.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\61e5e7e4c8c93d43f3f06edf87848d5f\core-1.1.0\AndroidManifest.xml:27:9-33:20
