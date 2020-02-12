@@ -10,27 +10,21 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_profiles"
+        android:id="@+id/action_badges"
         android:icon="@drawable/profile"
         android:orderInCategory="100"
         android:title="Badges"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_profiles"
+        android:id="@+id/action_sop"
         android:icon="@drawable/profile"
         android:orderInCategory="100"
         android:title="S.O.P."
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_profiles"
-        android:icon="@drawable/profile"
-        android:orderInCategory="100"
-        android:title="Bantuan"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_profiles"
+        android:id="@+id/action_keluar"
         android:icon="@drawable/profile"
         android:orderInCategory="100"
         android:title="Keluar"

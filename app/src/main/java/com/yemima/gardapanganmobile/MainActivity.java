@@ -73,6 +73,18 @@ public class MainActivity extends AppCompatActivity {
             pindahmain.putExtra("pekerjaan",pekerjaan);
             startActivity(pindahmain);
         }
+        else if(id == R.id.action_badges){
+            Intent pindahmain= new Intent(MainActivity.this, BadgesPagesActivity.class);
+            startActivity(pindahmain);
+        }
+        else if(id == R.id.action_sop){
+            Intent pindahmain= new Intent(MainActivity.this, SOPActivity.class);
+            startActivity(pindahmain);
+        }
+        else if(id == R.id.action_keluar){
+            Intent pindahmain = new Intent(MainActivity.this, LoginActivity.class);
+            startActivity(pindahmain);
+        }
 
         return super.onOptionsItemSelected(item);
     }
