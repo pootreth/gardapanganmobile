@@ -719,11 +719,11 @@ public final class R {
         public static final int title = 0x7f090106;
         public static final int titleDividerNoCustom = 0x7f090107;
         public static final int title_template = 0x7f090108;
-        public static final int top = 0x7f09010a;
-        public static final int topPanel = 0x7f09010b;
-        public static final int uniform = 0x7f090113;
-        public static final int up = 0x7f090115;
-        public static final int wrap_content = 0x7f09011b;
+        public static final int top = 0x7f09010b;
+        public static final int topPanel = 0x7f09010c;
+        public static final int uniform = 0x7f090114;
+        public static final int up = 0x7f090116;
+        public static final int wrap_content = 0x7f09011c;
     }
     public static final class integer {
         private integer() {}

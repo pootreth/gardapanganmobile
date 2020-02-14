@@ -9,17 +9,25 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainGoldActivity extends AppCompatActivity {
+    private String namadepan;
+    private String namabelakang;
+    private String nomorwa;
+    private String pekerjaan;
+    private String umur;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        try
-        {
-            this.getSupportActionBar().hide();
-        }
-        catch(NullPointerException e){}
+        //copas
+        Bundle bundle=getIntent().getExtras();
+        namadepan=bundle.getString("namadepan");
+        namabelakang=bundle.getString("namabelakang");
+        nomorwa=bundle.getString("nomorwa");
+        pekerjaan=bundle.getString("pekerjaan");
+        umur=bundle.getString("umur");
+
         setContentView(R.layout.activity_main_gold);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbargold);
         setSupportActionBar(toolbar);
     }
 
@@ -40,6 +48,11 @@ public class MainGoldActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_profile) {
             Intent pindahmain= new Intent(MainGoldActivity.this, ProfileActivity.class);
+            pindahmain.putExtra("namadepan", namadepan);
+            pindahmain.putExtra("namabelakang",namabelakang);
+            pindahmain.putExtra("nomorwa", nomorwa);
+            pindahmain.putExtra("umur",umur);
+            pindahmain.putExtra("pekerjaan",pekerjaan);
             startActivity(pindahmain);
         }
         else if(id == R.id.action_badges){

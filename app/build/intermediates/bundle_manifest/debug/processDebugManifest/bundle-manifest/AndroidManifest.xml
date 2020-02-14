@@ -26,7 +26,9 @@
         <activity android:name="com.yemima.gardapanganmobile.ProfileActivity" />
         <activity android:name="com.yemima.gardapanganmobile.RegisterEndActivity" />
         <activity android:name="com.yemima.gardapanganmobile.Register3Activity" />
-        <activity android:name="com.yemima.gardapanganmobile.MainGoldActivity" />
+        <activity
+            android:name="com.yemima.gardapanganmobile.MainGoldActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.yemima.gardapanganmobile.Register2Activity" />
         <activity android:name="com.yemima.gardapanganmobile.Register1Activity" />
         <activity android:name="com.yemima.gardapanganmobile.RegisterActivity" />

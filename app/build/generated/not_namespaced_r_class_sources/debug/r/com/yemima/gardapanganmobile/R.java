@@ -5412,24 +5412,25 @@ public final class R {
     public static final int titleDividerNoCustom=0x7f090107;
     public static final int title_template=0x7f090108;
     public static final int toolbar=0x7f090109;
-    public static final int top=0x7f09010a;
-    public static final int topPanel=0x7f09010b;
-    public static final int touch_outside=0x7f09010c;
-    public static final int transition_current_scene=0x7f09010d;
-    public static final int transition_layout_save=0x7f09010e;
-    public static final int transition_position=0x7f09010f;
-    public static final int transition_scene_layoutid_cache=0x7f090110;
-    public static final int transition_transform=0x7f090111;
-    public static final int umur=0x7f090112;
-    public static final int uniform=0x7f090113;
-    public static final int unlabeled=0x7f090114;
-    public static final int up=0x7f090115;
-    public static final int useLogo=0x7f090116;
-    public static final int view_offset_helper=0x7f090117;
-    public static final int visible=0x7f090118;
-    public static final int withText=0x7f090119;
-    public static final int wrap=0x7f09011a;
-    public static final int wrap_content=0x7f09011b;
+    public static final int toolbargold=0x7f09010a;
+    public static final int top=0x7f09010b;
+    public static final int topPanel=0x7f09010c;
+    public static final int touch_outside=0x7f09010d;
+    public static final int transition_current_scene=0x7f09010e;
+    public static final int transition_layout_save=0x7f09010f;
+    public static final int transition_position=0x7f090110;
+    public static final int transition_scene_layoutid_cache=0x7f090111;
+    public static final int transition_transform=0x7f090112;
+    public static final int umur=0x7f090113;
+    public static final int uniform=0x7f090114;
+    public static final int unlabeled=0x7f090115;
+    public static final int up=0x7f090116;
+    public static final int useLogo=0x7f090117;
+    public static final int view_offset_helper=0x7f090118;
+    public static final int visible=0x7f090119;
+    public static final int withText=0x7f09011a;
+    public static final int wrap=0x7f09011b;
+    public static final int wrap_content=0x7f09011c;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -5531,7 +5532,8 @@ public final class R {
     public static final int support_simple_spinner_dropdown_item=0x7f0c0049;
   }
   public static final class menu {
-    public static final int menu_main=0x7f0d0000;
+    public static final int menu_gold=0x7f0d0000;
+    public static final int menu_main=0x7f0d0001;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0e0000;

@@ -1323,6 +1323,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toolbar
+id toolbargold
 id top
 id topPanel
 id touch_outside
@@ -1434,6 +1435,7 @@ layout select_dialog_singlechoice_material
 layout spinner_1item
 layout spinner_item
 layout support_simple_spinner_dropdown_item
+menu menu_gold
 menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
