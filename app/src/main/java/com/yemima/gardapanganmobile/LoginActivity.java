@@ -60,6 +60,11 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(email.getText().toString().equals("golduser@gmail.com")){
                     Intent pindahmain=new Intent(LoginActivity.this, MainGoldActivity.class);
+                    pindahmain.putExtra("namadepan", "0");
+                    pindahmain.putExtra("namabelakang","0");
+                    pindahmain.putExtra("nomorwa", "0");
+                    pindahmain.putExtra("umur","0");
+                    pindahmain.putExtra("pekerjaan","0");
                     startActivity(pindahmain);
                 }
                 else{
