@@ -1014,6 +1014,7 @@ drawable design_snackbar_background
 drawable dp
 drawable dropdown
 drawable edit
+drawable edit_photo
 drawable food
 drawable goldmedal
 drawable ic_launcher_background
@@ -1105,6 +1106,7 @@ id bronzeinfo
 id bronzemedals
 id button
 id button2
+id button3
 id buttonPanel
 id caption1
 id caption2
@@ -1158,6 +1160,7 @@ id filled
 id first_name
 id fixed
 id fname
+id fname2
 id food
 id food1
 id foodRescue
@@ -1185,6 +1188,7 @@ id imageView5
 id imageView6
 id imageView7
 id imageView8
+id imageView9
 id info
 id invisible
 id italic
@@ -1210,11 +1214,14 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id namabelakang
+id namabelakang2
 id navigation_header_container
 id never
 id newpasswd
 id nomor_wa
+id nomor_wa2
 id nomorwa
+id nomorwa2
 id none
 id normal
 id notification_background
@@ -1278,6 +1285,7 @@ id snap
 id snapMargins
 id spacer
 id spinner
+id spinner2
 id split_action_bar
 id spread
 id spread_inside
@@ -1306,6 +1314,8 @@ id textView11
 id textView12
 id textView13
 id textView14
+id textView15
+id textView16
 id textView2
 id textView3
 id textView4
@@ -1333,6 +1343,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id umur
+id umur2
 id uniform
 id unlabeled
 id up
@@ -1394,6 +1405,7 @@ layout activity_login
 layout activity_main
 layout activity_main_gold
 layout activity_profile
+layout activity_profile_edit
 layout activity_register
 layout activity_register1
 layout activity_register2
@@ -1406,6 +1418,7 @@ layout custom_action_badges
 layout custom_action_daftar
 layout custom_action_masuk
 layout custom_action_profile
+layout custom_action_profile_edit
 layout custom_action_sop
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.ProfileEditActivity" />
         <activity android:name="com.yemima.gardapanganmobile.SOPActivity" />
         <activity android:name="com.yemima.gardapanganmobile.BadgesPagesActivity" />
         <activity android:name="com.yemima.gardapanganmobile.ProfileActivity" />

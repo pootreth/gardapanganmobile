@@ -52,4 +52,11 @@ public class ProfileActivity extends AppCompatActivity {
         job.setText(pekerjaan);
         age.setText(umur);
     }
+
+    //route ke profileeditactivity(msh bgg)
+    public void editt(View view){
+        Intent edit=  new Intent(ProfileActivity.this, ProfileEditActivity.class);
+        startActivity(edit);
+        finish();
+    }
 }

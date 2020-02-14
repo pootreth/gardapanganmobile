@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileEditActivity">
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="81dp"
+        android:background="@drawable/spinner_background"
+        android:paddingStart="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomor_wa2" />
+
+    <EditText
+        android:id="@+id/namabelakang2"
+        android:layout_width="160sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:fontFamily="@font/googlesans_regular"
+        android:hint="Nama Belakang"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryOpacity"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/fname2"
+        app:layout_constraintTop_toBottomOf="@+id/last_name" />
+
+    <EditText
+        android:id="@+id/fname2"
+        android:layout_width="160sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:fontFamily="@font/googlesans_regular"
+        android:hint="Nama Depan"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryOpacity"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_name" />
+
+    <EditText
+        android:id="@+id/umur2"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:fontFamily="@font/googlesans_regular"
+        android:hint="Umur"
+        android:inputType="number"
+        android:paddingStart="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryOpacity"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nomorwa2"
+        app:layout_constraintTop_toBottomOf="@+id/umur" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/googlesans_regular"
+        android:text="+62"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/nomorwa2"
+        app:layout_constraintTop_toBottomOf="@+id/nomor_wa" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="|"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/nomor_wa" />
+
+    <EditText
+        android:id="@+id/nomorwa2"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:fontFamily="@font/googlesans_regular"
+        android:hint="Nomor Whatsapp"
+        android:inputType="number"
+        android:paddingStart="70sp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryOpacity"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomor_wa" />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="NAMA DEPAN"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="NAMA BELAKANG"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/first_name"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/nomor_wa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="NOMOR WHATSAPP"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname2" />
+
+    <TextView
+        android:id="@+id/nomor_wa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="165dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="PEKERJAAN"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomorwa2" />
+
+    <TextView
+        android:id="@+id/umur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="56dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="UMUR"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nomor_wa"
+        app:layout_constraintTop_toBottomOf="@+id/namabelakang2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="98sp"
+        android:layout_height="98sp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="157dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/edit_photo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
