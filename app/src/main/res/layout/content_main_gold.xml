@@ -20,8 +20,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:foregroundGravity="center"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/month">
 
@@ -29,16 +32,15 @@
                 android:id="@+id/linearLayout5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:foregroundGravity="center"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:id="@+id/linearLayout3"
+                    android:id="@+id/linearLayout9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
@@ -63,12 +65,23 @@
                     <TextView
                         android:id="@+id/caption1"
                         android:layout_width="88dp"
-                        android:layout_height="35dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center|center_horizontal"
                         android:fontFamily="@font/googlesans_regular"
                         android:foregroundGravity="center"
                         android:gravity="center"
-                        android:text="Porsi Makanan Terselamatkan"
+                        android:text="Porsi Makanan"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/caption5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/googlesans_regular"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="Terselamatkan"
                         android:textSize="13sp" />
                 </LinearLayout>
 
@@ -84,7 +97,7 @@
                     <ImageView
                         android:id="@+id/food1"
                         android:layout_width="103dp"
-                        android:layout_height="88dp"
+                        android:layout_height="84dp"
                         android:layout_gravity="center"
                         android:foregroundGravity="center"
                         app:srcCompat="@drawable/vegetables" />
@@ -94,30 +107,41 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="4dp"
                         android:fontFamily="@font/googlesans_medium"
+                        android:foregroundGravity="center"
                         android:gravity="center"
                         android:text="16,1 ton"
                         android:textSize="15sp" />
 
                     <TextView
                         android:id="@+id/caption3"
-                        android:layout_width="145dp"
-                        android:layout_height="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/googlesans_regular"
                         android:gravity="center"
-                        android:text="Potensi Makanan Terbuang Terselamatkan"
+                        android:text="Potensi Makanan"
                         android:textSize="13sp" />
-                </LinearLayout>
 
+                    <TextView
+                        android:id="@+id/caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/googlesans_regular"
+                        android:gravity="center"
+                        android:text="Terbuang Terselamatkan"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/linearLayout6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
                 android:foregroundGravity="center"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -126,6 +150,8 @@
                     android:id="@+id/linearLayout2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
@@ -149,49 +175,77 @@
 
                     <TextView
                         android:id="@+id/caption2"
-                        android:layout_width="109dp"
-                        android:layout_height="33dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:fontFamily="@font/googlesans_regular"
                         android:foregroundGravity="center"
                         android:gravity="center"
-                        android:text="Penerima Manfaat Prasejahtera"
+                        android:text="Penerima Manfaat"
                         android:textSize="13sp" />
 
+                    <TextView
+                        android:id="@+id/caption6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/googlesans_regular"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="Prasejahtera"
+                        android:textSize="13sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/linearLayout4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginTop="20dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/money"
                         android:layout_width="106dp"
                         android:layout_height="85dp"
+                        android:layout_gravity="center"
+                        android:foregroundGravity="center"
                         app:srcCompat="@drawable/invest" />
 
                     <TextView
                         android:id="@+id/number4"
                         android:layout_width="112dp"
-                        android:layout_height="22dp"
-                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/googlesans_medium"
+                        android:foregroundGravity="center"
                         android:gravity="center"
                         android:text="Rp 123,213,988,-"
                         android:textSize="15sp" />
 
                     <TextView
                         android:id="@+id/caption4"
-                        android:layout_width="112dp"
-                        android:layout_height="36dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/googlesans_regular"
+                        android:foregroundGravity="center"
                         android:gravity="center"
-                        android:text="Kerugian Ekonomi Terselamatkan"
+                        android:text="Kerugian Ekonomi"
                         android:textSize="13sp" />
 
+                    <TextView
+                        android:id="@+id/caption7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/googlesans_regular"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="Terselamatkan"
+                        android:textSize="13sp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
