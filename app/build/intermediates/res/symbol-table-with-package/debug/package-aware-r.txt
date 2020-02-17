@@ -1004,7 +1004,6 @@ drawable button_disable
 drawable button_selector
 drawable camera
 drawable check
-drawable check_icon
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1042,6 +1041,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable ok
 drawable profile
 drawable round_edittext
 drawable search_button
@@ -1088,7 +1088,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addButton
 id age
 id alertTitle
 id all
@@ -1106,7 +1105,6 @@ id bronzeinfo
 id bronzemedals
 id button
 id button2
-id button3
 id buttonPanel
 id caption1
 id caption2
@@ -1142,6 +1140,7 @@ id diikuti_view
 id dimensions
 id direct
 id disableHome
+id edit
 id editPasswd
 id editText
 id edit_query
@@ -1159,8 +1158,8 @@ id fill_vertical
 id filled
 id first_name
 id fixed
+id floatingActionButton
 id fname
-id fname2
 id food
 id food1
 id foodRescue
@@ -1201,6 +1200,12 @@ id last_name
 id left
 id line1
 id line3
+id linearLayout2
+id linearLayout3
+id linearLayout4
+id linearLayout5
+id linearLayout6
+id linearLayout7
 id listMode
 id list_item
 id lname
@@ -1214,14 +1219,12 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id namabelakang
-id namabelakang2
 id navigation_header_container
 id never
 id newpasswd
 id nomor_wa
 id nomor_wa2
 id nomorwa
-id nomorwa2
 id none
 id normal
 id notification_background
@@ -1248,6 +1251,7 @@ id radio
 id right
 id right_icon
 id right_side
+id save
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1285,7 +1289,6 @@ id snap
 id snapMargins
 id spacer
 id spinner
-id spinner2
 id split_action_bar
 id spread
 id spread_inside
@@ -1316,6 +1319,7 @@ id textView13
 id textView14
 id textView15
 id textView16
+id textView18
 id textView2
 id textView3
 id textView4
@@ -1343,7 +1347,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id umur
-id umur2
 id uniform
 id unlabeled
 id up

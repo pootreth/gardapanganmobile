@@ -83,7 +83,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Ye
 	android:theme
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.yemima.gardapanganmobile.ProfileEditActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:15:9-66
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:15:9-57
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:15:19-54
 activity#com.yemima.gardapanganmobile.SOPActivity

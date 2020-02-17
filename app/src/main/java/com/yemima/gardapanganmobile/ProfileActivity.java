@@ -3,7 +3,9 @@ package com.yemima.gardapanganmobile;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -53,7 +55,7 @@ public class ProfileActivity extends AppCompatActivity {
         age.setText(umur);
     }
 
-    //route ke profileeditactivity(msh bgg)
+    //route ke profileeditactivity
     public void editt(View view){
         Intent edit=  new Intent(ProfileActivity.this, ProfileEditActivity.class);
         startActivity(edit);
