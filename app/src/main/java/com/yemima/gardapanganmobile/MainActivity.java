@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     private String nomorwa;
     private String pekerjaan;
     private String umur;
+    private ImageView mulaidonasi1;
+    private ImageView mulaidonasi2;
+    private ImageView mulaidonasi3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +50,33 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        mulaidonasi1=findViewById(R.id.buttonmulai1);
+        mulaidonasi1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent donasi=  new Intent(MainActivity.this, DonasiMakananActivity.class);
+                startActivity(donasi);
+            }
+        });
+
+        mulaidonasi2=findViewById(R.id.buttonmulai2);
+        mulaidonasi2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent donasi=  new Intent(MainActivity.this, DonasiTunaiActivity.class);
+                startActivity(donasi);
+            }
+        });
+
+        mulaidonasi3=findViewById(R.id.buttonmulai3);
+        mulaidonasi3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent donasi=  new Intent(MainActivity.this, UsulPenerimaActivity.class);
+                startActivity(donasi);
+            }
+        });
 
     }
 
@@ -87,5 +118,22 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    //route ke event
+    public void event1(View view){
+        Intent event1 =  new Intent(MainActivity.this, Event1Activity.class);
+        startActivity(event1);
+        //adanya loe finish(); bikin balik ke halam
+    }
+
+    public void event2(View view){
+        Intent event2 =  new Intent(MainActivity.this, Event2Activity.class);
+        startActivity(event2);
+    }
+
+    public void event3(View view){
+        Intent event3 =  new Intent(MainActivity.this, Event3Activity.class);
+        startActivity(event3);
     }
 }

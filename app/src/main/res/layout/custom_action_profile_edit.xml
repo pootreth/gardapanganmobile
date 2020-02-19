@@ -16,8 +16,8 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:fontFamily="@font/googlesans_bold"
-            android:paddingStart="90sp"
-            android:text="PROFIL"
+            android:paddingStart="70sp"
+            android:text="EDIT PROFIL"
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:textStyle="bold" />

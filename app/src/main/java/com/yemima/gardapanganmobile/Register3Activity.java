@@ -33,7 +33,7 @@ public class Register3Activity extends AppCompatActivity {
         lanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pindahmain = new Intent(Register3Activity.this, MainActivity.class);
+                Intent pindahmain = new Intent(Register3Activity.this, RegisterEndActivity.class);
                 //copas
                 pindahmain.putExtra("namadepan", namadepan);
                 pindahmain.putExtra("namabelakang",namabelakang);

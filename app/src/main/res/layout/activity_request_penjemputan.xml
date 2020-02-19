@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestPenjemputanActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/jenismakanan"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Jenis Makanan"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/jumlahporsi"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Jumlah Porsi"
+            android:inputType="number"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jenismakanan" />
+
+        <EditText
+            android:id="@+id/tglkadaluarsa"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Perkiraan Kadaluarsa"
+            android:inputType="date"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jumlahporsi" />
+
+        <EditText
+            android:id="@+id/sumbermakanan"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Sumber Makanan"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tglkadaluarsa" />
+
+        <EditText
+            android:id="@+id/partner"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Partner"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sumbermakanan" />
+
+        <EditText
+            android:id="@+id/meeting_point"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Meeting Point"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jam_waktu" />
+
+        <EditText
+            android:id="@+id/tambahan"
+            android:layout_width="320sp"
+            android:layout_height="120sp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:gravity="top"
+            android:hint="Tambahan"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:paddingTop="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/meeting_point" />
+
+        <ImageView
+            android:id="@+id/emblem"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:inputType="text"
+            android:paddingStart="30sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/partner" />
+
+        <TextView
+            android:id="@+id/waktu_kedatangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="Waktu Kedatangan :"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emblem" />
+
+        <TextView
+            android:id="@+id/mobil_pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="Butuh Mobil Pick Up"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/checkBox"
+            app:layout_constraintTop_toBottomOf="@+id/emblem" />
+
+        <TextView
+            android:id="@+id/jam_waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/googlesans_bold"
+            android:text="18.00"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/waktu_kedatangan"
+            app:layout_constraintTop_toBottomOf="@+id/emblem" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@android:style/Widget.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@+id/jam_waktu"
+            app:layout_constraintTop_toBottomOf="@+id/emblem" />
+
+        <ImageView
+            android:id="@+id/add_photo"
+            android:layout_width="320dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tambahan"
+            app:srcCompat="@drawable/add_photo" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_selector"
+            android:enabled="true"
+            android:saveEnabled="true"
+            android:text="KIRIM"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_photo" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

@@ -22,6 +22,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.DonasiEventActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.DonasiRestoranActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.DonasiIndividuActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.UsulPenerimaActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.DonasiMakananActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.RequestPenjemputanActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.Event3Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.Event2Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.Event1Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.DonasiTunaiActivity" />
         <activity android:name="com.yemima.gardapanganmobile.ProfileEditActivity" />
         <activity android:name="com.yemima.gardapanganmobile.SOPActivity" />
         <activity android:name="com.yemima.gardapanganmobile.BadgesPagesActivity" />

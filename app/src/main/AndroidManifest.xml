@@ -12,6 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DonasiEventActivity"></activity>
+        <activity android:name=".DonasiRestoranActivity" />
+        <activity android:name=".DonasiIndividuActivity" />
+        <activity android:name=".UsulPenerimaActivity" />
+        <activity android:name=".DonasiMakananActivity" />
+        <activity android:name=".RequestPenjemputanActivity" />
+        <activity android:name=".Event3Activity" />
+        <activity android:name=".Event2Activity" />
+        <activity android:name=".Event1Activity" />
+        <activity android:name=".DonasiTunaiActivity" />
         <activity android:name=".ProfileEditActivity" />
         <activity android:name=".SOPActivity" />
         <activity android:name=".BadgesPagesActivity" />

@@ -66,6 +66,7 @@ public class LoginActivity extends AppCompatActivity {
                     pindahmain.putExtra("umur","0");
                     pindahmain.putExtra("pekerjaan","0");
                     startActivity(pindahmain);
+                    finish();
                 }
                 else{
                 Intent pindahmain=new Intent(LoginActivity.this, MainActivity.class);
@@ -75,6 +76,7 @@ public class LoginActivity extends AppCompatActivity {
                     pindahmain.putExtra("umur","0");
                     pindahmain.putExtra("pekerjaan","0");
                 startActivity(pindahmain);
+                finish();
                 }
             }
         });
