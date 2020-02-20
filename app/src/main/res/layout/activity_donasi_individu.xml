@@ -1,9 +1,194 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DonasiIndividuActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/donasi_individu_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/namalengkap"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Nama Lengkap"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/namalengkap" />
+
+        <EditText
+            android:id="@+id/telepon"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Telepon"
+            android:inputType="number"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alamat" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/telepon" />
+
+        <EditText
+            android:id="@+id/jenismakanan"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Jenis Makanan (Mis. Sayur, Buah, dsb.)"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <EditText
+            android:id="@+id/tgl_kadaluarsa"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Perkiraan Tanggal Kadaluarsa"
+            android:inputType="date"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jenismakanan" />
+
+        <EditText
+            android:id="@+id/jumlahporsi"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Jumlah Porsi (Mis. 100 Porsi, 2 kg, dsb.)"
+            android:inputType="number"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tgl_kadaluarsa" />
+
+        <EditText
+            android:id="@+id/keterangantambahan"
+            android:layout_width="320sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/round_edittext"
+            android:ems="10"
+            android:fontFamily="@font/googlesans_regular"
+            android:hint="Keterangan Tambahan"
+            android:inputType="text"
+            android:paddingStart="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryOpacity"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jumlahporsi" />
+
+        <TextView
+            android:id="@+id/nb"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="Nb: Isikan data dengan sebenar-benarnya, kami akan menghubungi Anda untuk tahap selanjutnya. Terima kasih."
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/keterangantambahan" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/button_selector"
+            android:enabled="true"
+            android:saveEnabled="true"
+            android:text="KIRIM"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nb" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1102,6 +1102,7 @@ id add_photo
 id age
 id ajakan
 id ajakan2
+id alamat
 id alertTitle
 id all
 id always
@@ -1160,6 +1161,7 @@ id dimensions
 id direct
 id disableHome
 id donasi
+id donasi_individu_form
 id donasi_makanan
 id donasi_makanan_page
 id donasi_tunai
@@ -1223,6 +1225,7 @@ id jam_waktu
 id jenismakanan
 id job
 id jumlahporsi
+id keterangantambahan
 id labeled
 id lanjut
 id largeLabel
@@ -1259,7 +1262,11 @@ id mulai2
 id mulai3
 id multiply
 id namabelakang
+id namacp
+id namalengkap
+id namarestoran
 id navigation_header_container
+id nb
 id never
 id newpasswd
 id nomor_wa
@@ -1316,6 +1323,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id send
+id send2
 id shortcut
 id showCustom
 id showHome
@@ -1348,6 +1356,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tambahan
 id tap
+id telepon
 id text
 id text2
 id textSpacerNoButtons
@@ -1377,6 +1386,7 @@ id text_resto
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id tgl_kadaluarsa
 id tglkadaluarsa
 id time
 id title
@@ -1474,6 +1484,7 @@ layout activity_register_end
 layout activity_request_penjemputan
 layout activity_sop
 layout activity_usul_penerima
+layout activity_welcome_screen
 layout content_main
 layout content_main_gold
 layout custom_action_badges

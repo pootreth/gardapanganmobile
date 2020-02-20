@@ -22,6 +22,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.WelcomeScreenActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiEventActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiRestoranActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiIndividuActivity" />
