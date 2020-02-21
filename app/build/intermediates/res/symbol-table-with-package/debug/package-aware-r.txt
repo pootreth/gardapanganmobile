@@ -1161,9 +1161,11 @@ id dimensions
 id direct
 id disableHome
 id donasi
+id donasi_event_form
 id donasi_individu_form
 id donasi_makanan
 id donasi_makanan_page
+id donasi_restorant_form
 id donasi_tunai
 id edit
 id editPasswd
@@ -1224,6 +1226,7 @@ id item_touch_helper_previous_elevation
 id jam_waktu
 id jenismakanan
 id job
+id jumlahpenerima
 id jumlahporsi
 id keterangantambahan
 id labeled
@@ -1263,7 +1266,9 @@ id mulai3
 id multiply
 id namabelakang
 id namacp
+id namaevent
 id namalengkap
+id namalokasi
 id namarestoran
 id navigation_header_container
 id nb
@@ -1408,6 +1413,7 @@ id unlabeled
 id up
 id useLogo
 id usul_penerima
+id usul_penerima_form
 id view_offset_helper
 id visible
 id waktu_kedatangan

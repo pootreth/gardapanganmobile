@@ -40,6 +40,7 @@ public class DonasiRestoranActivity extends AppCompatActivity {
 
         Spinner spinner=findViewById(R.id.spinner);
         final List<String> jenisdonasi=new ArrayList<>();
+        jenisdonasi.add("Jenis Donasi");
         jenisdonasi.add("Sekali");
         jenisdonasi.add("Rutin/Berulang");
 
