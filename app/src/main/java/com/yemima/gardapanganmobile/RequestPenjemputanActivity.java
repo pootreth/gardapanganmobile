@@ -10,6 +10,7 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class RequestPenjemputanActivity extends AppCompatActivity {
@@ -21,6 +22,18 @@ public class RequestPenjemputanActivity extends AppCompatActivity {
     private EditText meetingpoint;
     private EditText tambahan;
     private Button send;
+    private ImageView kurang;
+    private ImageView kurang2;
+    private ImageView kurang3;
+    private ImageView tambah;
+    private ImageView tambah2;
+    private ImageView tambah3;
+    private TextView angka;
+    private TextView angka2;
+    private TextView angka3;
+    private int jumlah=0;
+    private int jumlah2=0;
+    private int jumlah3=0;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -59,6 +72,83 @@ public class RequestPenjemputanActivity extends AppCompatActivity {
         getSupportActionBar().setCustomView(R.layout.custom_action_request_penjemputan);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        kurang=findViewById(R.id.kurang);
+        kurang2=findViewById(R.id.kurang2);
+        kurang3=findViewById(R.id.kurang3);
+        tambah=findViewById(R.id.tambah);
+        tambah2=findViewById(R.id.tambah2);
+        tambah3 =findViewById(R.id.tambah3);
+        angka=findViewById(R.id.angka);
+        angka2=findViewById(R.id.angka2);
+        angka3=findViewById(R.id.angka3);
+
+        tambah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                jumlah++;
+                if(jumlah>0){
+                    kurang.setBackgroundResource(R.drawable.kurangg);
+                }
+                angka.setText(Integer.toString(jumlah));
+            }
+        });
+        tambah2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                jumlah2++;
+                if(jumlah2>0){
+                    kurang2.setBackgroundResource(R.drawable.kurangg);
+                }
+                angka2.setText(Integer.toString(jumlah2));
+            }
+        });
+        tambah3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                jumlah3++;
+                if(jumlah3>0){
+                    kurang3.setBackgroundResource(R.drawable.kurangg);
+                }
+                angka3.setText(Integer.toString(jumlah3));
+            }
+        });
+        kurang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(jumlah>0){
+                    jumlah--;
+                    angka.setText(Integer.toString(jumlah));
+                    if(jumlah<=0){
+                        kurang.setBackgroundResource(R.drawable.kurang);
+                    }
+                }
+            }
+        });
+        kurang2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(jumlah2>0){
+                    jumlah2--;
+                    angka2.setText(Integer.toString(jumlah2));
+                    if(jumlah2<=0){
+                        kurang2.setBackgroundResource(R.drawable.kurang);
+                    }
+                }
+            }
+        });
+        kurang3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(jumlah3>0){
+                    jumlah3--;
+                    angka3.setText(Integer.toString(jumlah3));
+                    if(jumlah3<=0){
+                        kurang3.setBackgroundResource(R.drawable.kurang);
+                    }
+                }
+            }
+        });
 
         send=findViewById(R.id.send);
         send.setOnClickListener(new View.OnClickListener() {

@@ -1035,6 +1035,7 @@ drawable infobadges
 drawable invest
 drawable item_spinner
 drawable kurang
+drawable kurangg
 drawable logo
 drawable love
 drawable mtrl_snackbar_background
