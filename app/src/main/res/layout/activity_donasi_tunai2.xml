@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonasiTunai2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/donasi_tunai_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/money"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/money" />
+
+        <TextView
+            android:id="@+id/donasitext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/googlesans_bold"
+            android:text="Donasimu sangat berarti!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/money" />
+
+        <TextView
+            android:id="@+id/donasidetail"
+            android:layout_width="299dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/googlesans_regular"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Setiap donasi Rp 20.000,- dapat membantu kami mengirimkan 20 porsi makanan kepada warga pra-sejahtera yang hidup di kantong-kantong kemiskinan di Surabaya."
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/donasitext" />
+
+        <ImageView
+            android:id="@+id/transfer"
+            android:layout_width="296dp"
+            android:layout_height="208dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/donasidetail"
+            app:srcCompat="@drawable/transfer" />
+
+        <ImageView
+            android:id="@+id/online_payment_detail"
+            android:layout_width="296dp"
+            android:layout_height="604dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transfer"
+            app:srcCompat="@drawable/online_layout" />
+
+        <LinearLayout
+            android:id="@+id/onlinepaymentdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/online_payment_detail"
+            app:layout_constraintEnd_toEndOf="@+id/online_payment_detail"
+            app:layout_constraintStart_toStartOf="@+id/online_payment_detail"
+            app:layout_constraintTop_toTopOf="@+id/online_payment_detail">
+
+            <ImageView
+                android:id="@+id/online_payment"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                app:srcCompat="@drawable/onlinepayment" />
+
+            <ImageView
+                android:id="@+id/op_title"
+                android:layout_width="168dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="17dp"
+                app:srcCompat="@drawable/op_title" />
+
+            <ImageView
+                android:id="@+id/iconqris"
+                android:layout_width="264dp"
+                android:layout_height="79dp"
+                app:srcCompat="@drawable/iconqris" />
+
+            <ImageView
+                android:id="@+id/barcode"
+                android:layout_width="208dp"
+                android:layout_height="208dp"
+                android:layout_marginTop="31dp"
+                app:srcCompat="@drawable/qrcode" />
+
+            <ImageView
+                android:id="@+id/finishbutton"
+                android:layout_width="251dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="31dp"
+                app:srcCompat="@drawable/finish" />
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

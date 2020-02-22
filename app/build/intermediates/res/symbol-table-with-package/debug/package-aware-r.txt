@@ -1008,6 +1008,7 @@ drawable button_selector
 drawable buttonmulai
 drawable camera
 drawable check
+drawable contentty
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1021,7 +1022,9 @@ drawable dropdown
 drawable edit
 drawable edit_photo
 drawable event
+drawable finish
 drawable food
+drawable form_done
 drawable goldmedal
 drawable heart
 drawable ic_launcher_background
@@ -1030,6 +1033,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable icon
+drawable iconqris
 drawable individu
 drawable infobadges
 drawable invest
@@ -1055,8 +1059,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable ok
+drawable online_layout
 drawable online_payment
+drawable onlinepayment
+drawable op_title
+drawable payment
 drawable profile
+drawable qrcode
 drawable restoran
 drawable round_edittext
 drawable search_button
@@ -1068,6 +1077,9 @@ drawable team
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transfer
+drawable transferbankdetail
+drawable transferbanktext
+drawable transferdeskripsii
 drawable vegetables
 drawable view
 drawable water
@@ -1125,6 +1137,7 @@ id auto
 id badges
 id badgestext
 id bannerdonasi
+id barcode
 id barrier
 id beginning
 id blocking
@@ -1161,6 +1174,8 @@ id confirmpasswd
 id container
 id content
 id contentPanel
+id content_transfer
+id contentthx
 id coordinator
 id custom
 id customPanel
@@ -1184,6 +1199,7 @@ id donasi_restorant_form
 id donasi_tunai
 id donasi_tunai_form
 id donasidetail
+id donasimakanancontent
 id donasitext
 id edit
 id editPasswd
@@ -1193,6 +1209,7 @@ id email
 id emblem
 id end
 id endText
+id endofdonasi
 id enterAlways
 id enterAlwaysCollapsed
 id event
@@ -1203,6 +1220,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finishbutton
 id first_name
 id fixed
 id floatingActionButton
@@ -1214,6 +1232,7 @@ id foodrescue1
 id foodrescue2
 id foodrescue3
 id forever
+id form_done
 id ghost_view
 id gold
 id goldmedal
@@ -1226,6 +1245,7 @@ id home
 id homeAsUp
 id icon
 id icon_group
+id iconqris
 id ifRoom
 id image
 id imageView
@@ -1247,6 +1267,7 @@ id job
 id jumlah
 id jumlahpenerima
 id jumlahporsi
+id jumlahtransfer
 id keterangantambahan
 id kurang
 id kurang2
@@ -1302,6 +1323,7 @@ id nomor_wa
 id nomor_wa2
 id nomorwa
 id none
+id norek
 id normal
 id notification_background
 id notification_main_column
@@ -1312,6 +1334,9 @@ id number2
 id number3
 id number4
 id online_payment
+id online_payment_detail
+id onlinepaymentdetail
+id op_title
 id outline
 id packed
 id parallax
@@ -1319,6 +1344,7 @@ id parent
 id parentPanel
 id parent_matrix
 id partner
+id payment
 id pekerjaan
 id people
 id percent
@@ -1374,6 +1400,7 @@ id snap
 id snapMargins
 id spacer
 id spinner
+id spinnerbank
 id split_action_bar
 id spread
 id spread_inside
@@ -1428,6 +1455,7 @@ id textinput_error
 id textinput_helper_text
 id tgl_kadaluarsa
 id tglkadaluarsa
+id tgltransfer
 id time
 id title
 id titleDividerNoCustom
@@ -1438,6 +1466,9 @@ id top
 id topPanel
 id touch_outside
 id transfer
+id transfer_detail
+id transferbankdetail
+id transferbanktext
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -1511,6 +1542,9 @@ layout activity_donasi_makanan
 layout activity_donasi_restoran
 layout activity_donasi_tunai
 layout activity_donasi_tunai1
+layout activity_donasi_tunai2
+layout activity_donasi_tunai3
+layout activity_donasi_tunai4
 layout activity_event1
 layout activity_event2
 layout activity_event3
@@ -1530,6 +1564,7 @@ layout activity_register_end
 layout activity_report
 layout activity_request_penjemputan
 layout activity_sop
+layout activity_thankyou
 layout activity_usul_penerima
 layout activity_welcome_screen
 layout content_main
