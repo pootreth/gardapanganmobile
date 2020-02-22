@@ -191,7 +191,7 @@
             app:layout_constraintTop_toBottomOf="@+id/keterangantambahan" />
 
         <Button
-            android:id="@+id/send2"
+            android:id="@+id/send3"
             android:layout_width="320sp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"

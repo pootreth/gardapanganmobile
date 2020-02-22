@@ -996,6 +996,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add
 drawable add_photo
+drawable addevent
 drawable avd_hide_password
 drawable avd_show_password
 drawable banner
@@ -1015,6 +1016,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable donasi
 drawable dp
+drawable dpbronze
 drawable dropdown
 drawable edit
 drawable edit_photo
@@ -1106,6 +1108,8 @@ id alamat
 id alertTitle
 id all
 id always
+id appBarLayout
+id appBarLayout2
 id async
 id auto
 id badges
@@ -1245,6 +1249,7 @@ id linearLayout9
 id listMode
 id list_item
 id lname
+id logo
 id love
 id masked
 id meeting_point
@@ -1298,6 +1303,7 @@ id pekerjaan
 id people
 id percent
 id pin
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -1329,6 +1335,8 @@ id select_dialog_listview
 id selected
 id send
 id send2
+id send3
+id send4
 id shortcut
 id showCustom
 id showHome
@@ -1796,7 +1804,6 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
-style Overflow
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

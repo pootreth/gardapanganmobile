@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class MainGoldActivity extends AppCompatActivity {
     private String namadepan;
     private String namabelakang;
@@ -19,6 +21,7 @@ public class MainGoldActivity extends AppCompatActivity {
     private ImageView mulaidonasi1;
     private ImageView mulaidonasi2;
     private ImageView mulaidonasi3;
+    private FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,15 @@ public class MainGoldActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_gold);
         Toolbar toolbar = findViewById(R.id.toolbargold);
         setSupportActionBar(toolbar);
+
+        fab=findViewById(R.id.floatingActionButton);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent request =  new Intent(MainGoldActivity.this, RequestPenjemputanActivity.class);
+                startActivity(request);
+            }
+        });
 
         mulaidonasi1=findViewById(R.id.buttonmulai1);
         mulaidonasi1.setOnClickListener(new View.OnClickListener() {

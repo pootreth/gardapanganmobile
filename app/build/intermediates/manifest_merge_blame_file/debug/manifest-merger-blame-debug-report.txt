@@ -111,8 +111,8 @@
 51-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-50:20
 52            android:name="com.yemima.gardapanganmobile.LoginActivity"
 52-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:13-42
-53            android:label="Masuk" >
-53-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:13-34
+53            android:label="Garda Pangan" >
+53-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:13-41
 54            <intent-filter>
 54-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:13-49:29
 55                <action android:name="android.intent.action.MAIN" />

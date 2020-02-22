@@ -19,7 +19,7 @@ import java.util.List;
 
 public class DonasiRestoranActivity extends AppCompatActivity {
     private String donasi;
-    //private Button send;
+    private Button send;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -93,12 +93,12 @@ public class DonasiRestoranActivity extends AppCompatActivity {
             }
         });
 
-//        send = findViewById(R.id.send);
-//        send.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                finish();
-//            }
-//        });
+        send = findViewById(R.id.send2);
+        send.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }

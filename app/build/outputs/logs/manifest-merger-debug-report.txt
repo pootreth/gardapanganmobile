@@ -179,7 +179,7 @@ ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifes
 activity#com.yemima.gardapanganmobile.LoginActivity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-50:20
 	android:label
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:13-34
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:13-41
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

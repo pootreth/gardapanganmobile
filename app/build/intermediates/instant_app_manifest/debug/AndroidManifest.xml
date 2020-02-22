@@ -51,7 +51,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.yemima.gardapanganmobile.LoginActivity"
-            android:label="Masuk" >
+            android:label="Garda Pangan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
