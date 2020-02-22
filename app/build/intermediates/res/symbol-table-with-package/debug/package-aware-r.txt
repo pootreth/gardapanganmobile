@@ -1038,6 +1038,7 @@ drawable kurang
 drawable kurangg
 drawable logo
 drawable love
+drawable money
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1054,6 +1055,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable ok
+drawable online_payment
 drawable profile
 drawable restoran
 drawable round_edittext
@@ -1065,6 +1067,7 @@ drawable tambah
 drawable team
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable transfer
 drawable vegetables
 drawable view
 drawable water
@@ -1179,6 +1182,9 @@ id donasi_makanan
 id donasi_makanan_page
 id donasi_restorant_form
 id donasi_tunai
+id donasi_tunai_form
+id donasidetail
+id donasitext
 id edit
 id editPasswd
 id editText
@@ -1238,6 +1244,7 @@ id item_touch_helper_previous_elevation
 id jam_waktu
 id jenismakanan
 id job
+id jumlah
 id jumlahpenerima
 id jumlahporsi
 id keterangantambahan
@@ -1261,6 +1268,7 @@ id listMode
 id list_item
 id lname
 id logo
+id lokasipenerima
 id love
 id masked
 id meeting_point
@@ -1303,6 +1311,7 @@ id number1
 id number2
 id number3
 id number4
+id online_payment
 id outline
 id packed
 id parallax
@@ -1313,6 +1322,7 @@ id partner
 id pekerjaan
 id people
 id percent
+id perkiraannilai
 id pin
 id profile
 id progress_circular
@@ -1348,6 +1358,7 @@ id send
 id send2
 id send3
 id send4
+id send_report
 id shortcut
 id showCustom
 id showHome
@@ -1426,6 +1437,7 @@ id toolbargold
 id top
 id topPanel
 id touch_outside
+id transfer
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -1498,6 +1510,7 @@ layout activity_donasi_individu
 layout activity_donasi_makanan
 layout activity_donasi_restoran
 layout activity_donasi_tunai
+layout activity_donasi_tunai1
 layout activity_event1
 layout activity_event2
 layout activity_event3
@@ -1514,6 +1527,7 @@ layout activity_register1
 layout activity_register2
 layout activity_register3
 layout activity_register_end
+layout activity_report
 layout activity_request_penjemputan
 layout activity_sop
 layout activity_usul_penerima
@@ -1530,6 +1544,7 @@ layout custom_action_event
 layout custom_action_masuk
 layout custom_action_profile
 layout custom_action_profile_edit
+layout custom_action_report
 layout custom_action_request_penjemputan
 layout custom_action_sop
 layout custom_action_usul_penerima

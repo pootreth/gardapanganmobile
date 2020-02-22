@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EventGold3Activity"></activity>
+        <activity android:name=".DonasiTunai1Activity"></activity>
+        <activity android:name=".ReportActivity" />
+        <activity android:name=".EventGold3Activity" />
         <activity android:name=".EventGold2Activity" />
         <activity android:name=".EventGold1Activity" />
         <activity android:name=".LoginActivity" />

@@ -21,6 +21,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.DonasiTunai1Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.ReportActivity" />
         <activity android:name="com.yemima.gardapanganmobile.EventGold3Activity" />
         <activity android:name="com.yemima.gardapanganmobile.EventGold2Activity" />
         <activity android:name="com.yemima.gardapanganmobile.EventGold1Activity" />
