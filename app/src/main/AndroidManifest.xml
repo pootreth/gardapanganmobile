@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeScreenActivity"></activity>
+        <activity android:name=".WelcomeScreenActivity" />
         <activity android:name=".DonasiEventActivity" />
         <activity android:name=".DonasiRestoranActivity" />
         <activity android:name=".DonasiIndividuActivity" />
@@ -40,7 +40,7 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".WelcomeScreenActivity"
             android:label="Garda Pangan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
