@@ -19,11 +19,12 @@ public class WelcomeScreenActivity extends AppCompatActivity {
         }
         catch(NullPointerException e){}
 
-        animate=findViewById(R.id.tap);
+        animate=findViewById(R.id.taptap);
         animate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent pindahmain = new Intent(WelcomeScreenActivity.this, LoginActivity.class);
+                pindahmain.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(pindahmain);
             }
         });

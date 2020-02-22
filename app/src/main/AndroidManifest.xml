@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.yemima.gardapanganmobile">
 
     <dist:module dist:instant="true" />
@@ -12,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeScreenActivity" />
+        <activity android:name=".EventGold3Activity"></activity>
+        <activity android:name=".EventGold2Activity" />
+        <activity android:name=".EventGold1Activity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".DonasiEventActivity" />
         <activity android:name=".DonasiRestoranActivity" />
         <activity android:name=".DonasiIndividuActivity" />
@@ -41,7 +45,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".WelcomeScreenActivity"
-            android:label="Garda Pangan">
+            android:label="Garda Pangan"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

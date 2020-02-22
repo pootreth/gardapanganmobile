@@ -1076,6 +1076,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id WelcomeScreen
 id action_badges
 id action_bar
 id action_bar_activity_content
@@ -1217,7 +1218,6 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView5
 id imageView6
 id imageView7
 id imageView8
@@ -1369,6 +1369,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tambahan
 id tap
+id taptap
 id telepon
 id text
 id text2
@@ -1485,6 +1486,9 @@ layout activity_donasi_tunai
 layout activity_event1
 layout activity_event2
 layout activity_event3
+layout activity_event_gold1
+layout activity_event_gold2
+layout activity_event_gold3
 layout activity_login
 layout activity_main
 layout activity_main_gold

@@ -117,17 +117,17 @@ public class MainGoldActivity extends AppCompatActivity {
 
     //route ke event
     public void event1(View view){
-        Intent event1 =  new Intent(MainGoldActivity.this, Event1Activity.class);
+        Intent event1 =  new Intent(MainGoldActivity.this, EventGold1Activity.class);
         startActivity(event1);
     }
 
     public void event2(View view){
-        Intent event2 =  new Intent(MainGoldActivity.this, Event2Activity.class);
+        Intent event2 =  new Intent(MainGoldActivity.this, EventGold2Activity.class);
         startActivity(event2);
     }
 
     public void event3(View view){
-        Intent event3 =  new Intent(MainGoldActivity.this, Event3Activity.class);
+        Intent event3 =  new Intent(MainGoldActivity.this, EventGold3Activity.class);
         startActivity(event3);
     }
     //route ke request penjemputan
