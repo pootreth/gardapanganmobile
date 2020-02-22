@@ -1034,6 +1034,7 @@ drawable individu
 drawable infobadges
 drawable invest
 drawable item_spinner
+drawable kurang
 drawable logo
 drawable love
 drawable mtrl_snackbar_background
@@ -1059,6 +1060,7 @@ drawable search_button
 drawable silvermedal
 drawable sop
 drawable spinner_background
+drawable tambah
 drawable team
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1109,6 +1111,9 @@ id alamat
 id alertTitle
 id all
 id always
+id angka
+id angka2
+id angka3
 id appBarLayout
 id appBarLayout2
 id async
@@ -1122,6 +1127,7 @@ id blocking
 id bottom
 id bronze
 id bronzeinfo
+id bronzemedal
 id bronzemedals
 id button
 id button2
@@ -1203,6 +1209,7 @@ id foodrescue3
 id forever
 id ghost_view
 id gold
+id goldmedal
 id goldmedals
 id gone
 id group_divider
@@ -1233,6 +1240,9 @@ id job
 id jumlahpenerima
 id jumlahporsi
 id keterangantambahan
+id kurang
+id kurang2
+id kurang3
 id labeled
 id lanjut
 id largeLabel
@@ -1343,6 +1353,7 @@ id showHome
 id showTitle
 id silver
 id silverinfo
+id silvermedal
 id silvermedals
 id smallLabel
 id snackbar_action
@@ -1367,6 +1378,9 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tambah
+id tambah2
+id tambah3
 id tambahan
 id tap
 id taptap

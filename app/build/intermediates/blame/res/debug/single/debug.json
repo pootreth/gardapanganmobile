@@ -280,6 +280,10 @@
         "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\layout\\activity_main_gold.xml"
     },
     {
+        "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kurang.png.flat",
+        "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\drawable\\kurang.png"
+    },
+    {
         "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\Yemima Sutanto\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -378,6 +382,10 @@
     {
         "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Yemima Sutanto\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tambah.png.flat",
+        "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\drawable\\tambah.png"
     },
     {
         "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
