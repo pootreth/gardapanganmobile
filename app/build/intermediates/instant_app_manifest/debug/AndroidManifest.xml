@@ -20,8 +20,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.EventGold3Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.EventGold2Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.EventGold1Activity" />
+        <activity android:name="com.yemima.gardapanganmobile.ReportPageActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.SupportPageActivity" />
         <activity android:name="com.yemima.gardapanganmobile.WelcomeScreenActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiEventActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiRestoranActivity" />

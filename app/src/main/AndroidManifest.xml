@@ -12,7 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeScreenActivity"></activity>
+        <activity android:name=".EventGold3Activity"></activity>
+        <activity android:name=".EventGold2Activity" />
+        <activity android:name=".EventGold1Activity" />
+        <activity android:name=".ReportPageActivity" />
+        <activity android:name=".SupportPageActivity" />
+        <activity android:name=".WelcomeScreenActivity" />
         <activity android:name=".DonasiEventActivity" />
         <activity android:name=".DonasiRestoranActivity" />
         <activity android:name=".DonasiIndividuActivity" />
