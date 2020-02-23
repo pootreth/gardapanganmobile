@@ -6,133 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
-    <TextView
-        android:id="@+id/fname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/googlesans_regular"
-        android:text="firstname"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/first_name" />
-
-    <TextView
-        android:id="@+id/first_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="255dp"
-        android:fontFamily="@font/googlesans_bold"
-        android:text="NAMA DEPAN"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/last_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="255dp"
-        android:fontFamily="@font/googlesans_bold"
-        android:text="NAMA BELAKANG"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toEndOf="@+id/first_name"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/lname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="94dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/googlesans_regular"
-        android:text="lastname"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toEndOf="@+id/fname"
-        app:layout_constraintTop_toBottomOf="@+id/last_name" />
-
-    <TextView
-        android:id="@+id/nomor_wa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/googlesans_bold"
-        android:text="NOMOR WHATSAPP"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fname" />
-
-    <TextView
-        android:id="@+id/nowa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/googlesans_regular"
-        android:text="nomor wa"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nomor_wa" />
-
-    <TextView
-        android:id="@+id/umur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="@font/googlesans_bold"
-        android:text="UMUR"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toEndOf="@+id/nomor_wa"
-        app:layout_constraintTop_toBottomOf="@+id/lname" />
-
-    <TextView
-        android:id="@+id/age"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/googlesans_regular"
-        android:text="age"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintStart_toEndOf="@+id/nowa"
-        app:layout_constraintTop_toBottomOf="@+id/umur" />
-
-    <TextView
-        android:id="@+id/pekerjaan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="167dp"
-        android:layout_marginTop="217dp"
-        android:layout_marginEnd="166dp"
-        android:fontFamily="@font/googlesans_bold"
-        android:text="PEKERJAAN"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
-    <TextView
-        android:id="@+id/job"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="195dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="196dp"
-        android:fontFamily="@font/googlesans_regular"
-        android:text="job"
-        android:textColor="@color/colorPrimary"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pekerjaan" />
-
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -144,10 +19,176 @@
         app:srcCompat="@drawable/dp" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/edit"
         android:layout_width="16sp"
         android:layout_height="16sp"
-        app:srcCompat="@drawable/edit"
-        tools:layout_editor_absoluteX="367dp"
-        tools:layout_editor_absoluteY="26dp" />
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/edit" />
+
+    <LinearLayout
+        android:id="@+id/content_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dp">
+
+        <LinearLayout
+            android:id="@+id/content_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="NAMA DEPAN"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="firstname"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="NAMA BELAKANG"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="lastname"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_job_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content_name">
+
+        <LinearLayout
+            android:id="@+id/content_wa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomor_wa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="NOMOR WHATSAPP"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/nowa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="nomor wa"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/content_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/umur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="UMUR"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="age"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content_job_age">
+
+        <TextView
+            android:id="@+id/pekerjaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlesans_bold"
+            android:text="PEKERJAAN"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="job"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

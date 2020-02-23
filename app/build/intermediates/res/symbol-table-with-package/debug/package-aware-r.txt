@@ -1175,8 +1175,15 @@ id confirmpasswd
 id container
 id content
 id contentPanel
+id content_age
+id content_fname
+id content_job
+id content_job_age
+id content_lname
+id content_name
 id content_op
 id content_transfer
+id content_wa
 id contentthx
 id coordinator
 id custom
@@ -1203,6 +1210,7 @@ id donasi_tunai_form
 id donasidetail
 id donasimakanancontent
 id donasitext
+id dp
 id edit
 id editPasswd
 id editText
@@ -1255,9 +1263,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView6
 id imageView7
-id imageView8
 id imageView9
 id individu
 id info
