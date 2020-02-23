@@ -1,9 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DonasiTunai4Activity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/donasi_tunai_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/money"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/money" />
+
+        <TextView
+            android:id="@+id/donasitext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/googlesans_bold"
+            android:text="Donasimu sangat berarti!"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/money" />
+
+        <TextView
+            android:id="@+id/donasidetail"
+            android:layout_width="299dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/googlesans_regular"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Setiap donasi Rp 20.000,- dapat membantu kami mengirimkan 20 porsi makanan kepada warga pra-sejahtera yang hidup di kantong-kantong kemiskinan di Surabaya."
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/donasitext" />
+
+        <ImageView
+            android:id="@+id/transfer"
+            android:layout_width="296dp"
+            android:layout_height="208dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/donasidetail"
+            app:srcCompat="@drawable/transfer" />
+
+        <ImageView
+            android:id="@+id/form_op"
+            android:layout_width="296dp"
+            android:layout_height="493dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp"
+            android:foregroundGravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transfer"
+            app:srcCompat="@drawable/form_op" />
+
+        <LinearLayout
+            android:id="@+id/content_op"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/form_op"
+            app:layout_constraintEnd_toEndOf="@+id/form_op"
+            app:layout_constraintStart_toStartOf="@+id/form_op"
+            app:layout_constraintTop_toTopOf="@+id/form_op">
+
+            <ImageView
+                android:id="@+id/onlinepayment"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                app:srcCompat="@drawable/onlinepayment" />
+
+            <ImageView
+                android:id="@+id/op_title"
+                android:layout_width="147dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/op_title" />
+
+
+            <EditText
+                android:id="@+id/tgltransfer1"
+                android:layout_width="250sp"
+                android:layout_height="50sp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/round_edittext"
+                android:ems="10"
+                android:fontFamily="@font/googlesans_regular"
+                android:hint="Tanggal Transfer"
+                android:inputType="date"
+                android:paddingStart="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimaryOpacity"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/op_title" />
+
+            <Spinner
+                android:id="@+id/metodepembayaran"
+                android:layout_width="250sp"
+                android:layout_height="50sp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/spinner_background"
+                android:paddingStart="20sp"
+                app:layout_constraintTop_toBottomOf="@+id/tgltransfer" />
+
+            <EditText
+                android:id="@+id/jumlahtransfer1"
+                android:layout_width="250sp"
+                android:layout_height="50sp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/round_edittext"
+                android:ems="10"
+                android:fontFamily="@font/googlesans_regular"
+                android:hint="Jumlah"
+                android:inputType="number"
+                android:paddingStart="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimaryOpacity"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@+id/metodepembayaran" />
+
+            <Button
+                android:id="@+id/sendconfirm"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/button_selector"
+                android:enabled="true"
+                android:saveEnabled="true"
+                android:text="KIRIM"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/jumlahtransfer" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

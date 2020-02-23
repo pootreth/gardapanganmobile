@@ -6,10 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class DonasiTunaiActivity extends AppCompatActivity {
-    private View animate;
-    private View animate2;
+    private ImageView animate;
+    private ImageView animate2;
 
     @Override
     public boolean onSupportNavigateUp() {

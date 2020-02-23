@@ -1025,6 +1025,7 @@ drawable event
 drawable finish
 drawable food
 drawable form_done
+drawable form_op
 drawable goldmedal
 drawable heart
 drawable ic_launcher_background
@@ -1174,6 +1175,7 @@ id confirmpasswd
 id container
 id content
 id contentPanel
+id content_op
 id content_transfer
 id contentthx
 id coordinator
@@ -1233,6 +1235,7 @@ id foodrescue2
 id foodrescue3
 id forever
 id form_done
+id form_op
 id ghost_view
 id gold
 id goldmedal
@@ -1268,6 +1271,7 @@ id jumlah
 id jumlahpenerima
 id jumlahporsi
 id jumlahtransfer
+id jumlahtransfer1
 id keterangantambahan
 id kurang
 id kurang2
@@ -1298,6 +1302,7 @@ id menu_donasi_makanan
 id menu_donasi_tunai
 id menu_usul_penerima
 id message
+id metodepembayaran
 id middle
 id mini
 id mobil_pickup
@@ -1335,6 +1340,7 @@ id number3
 id number4
 id online_payment
 id online_payment_detail
+id onlinepayment
 id onlinepaymentdetail
 id op_title
 id outline
@@ -1385,6 +1391,7 @@ id send2
 id send3
 id send4
 id send_report
+id sendconfirm
 id shortcut
 id showCustom
 id showHome
@@ -1456,6 +1463,7 @@ id textinput_helper_text
 id tgl_kadaluarsa
 id tglkadaluarsa
 id tgltransfer
+id tgltransfer1
 id time
 id title
 id titleDividerNoCustom

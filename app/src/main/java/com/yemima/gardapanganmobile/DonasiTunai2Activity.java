@@ -2,14 +2,26 @@ package com.yemima.gardapanganmobile;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DonasiTunai2Activity extends AppCompatActivity {
-    private View animate;
-    private View finishdonasi;
+    private ImageView animate;
+    private ImageView finishdonasi;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -28,7 +40,7 @@ public class DonasiTunai2Activity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        animate=findViewById(R.id.transferbankdetail);
+        animate=findViewById(R.id.transfer);
         animate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
