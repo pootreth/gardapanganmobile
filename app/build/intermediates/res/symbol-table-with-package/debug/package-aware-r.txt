@@ -1009,8 +1009,13 @@ drawable button_disable
 drawable button_selector
 drawable buttonmulai
 drawable camera
+drawable chaat
+drawable chatt
 drawable check
+drawable contentevent1
 drawable contentty
+drawable daftar
+drawable daftar1
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1082,6 +1087,7 @@ drawable primarasa
 drawable primarasamap
 drawable profile
 drawable qrcode
+drawable report
 drawable restoran
 drawable round_edittext
 drawable search_button
@@ -1090,6 +1096,8 @@ drawable sop
 drawable spinner_background
 drawable tambah
 drawable team
+drawable tidakbisa
+drawable tidakbisa1
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transfer
@@ -1166,6 +1174,7 @@ id bronzemedals
 id button
 id button2
 id buttonPanel
+id buttonacc
 id buttonmulai1
 id buttonmulai2
 id buttonmulai3
@@ -1294,6 +1303,7 @@ id jumlahpenerima
 id jumlahporsi
 id jumlahtransfer
 id jumlahtransfer1
+id keputihnmap
 id keterangantambahan
 id kurang
 id kurang2
@@ -1378,6 +1388,7 @@ id people
 id percent
 id perkiraannilai
 id pin
+id primarasanmap
 id progress_circular
 id progress_horizontal
 id radio
@@ -1488,6 +1499,7 @@ id tgl_kadaluarsa
 id tglkadaluarsa
 id tgltransfer
 id tgltransfer1
+id tidakbisa
 id time
 id title
 id titleDividerNoCustom

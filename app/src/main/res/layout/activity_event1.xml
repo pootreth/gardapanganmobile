@@ -15,23 +15,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/belinnmap" />
 
-    <ImageView
-        android:id="@+id/contentevent1"
-        android:layout_width="430dp"
-        android:layout_height="470dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/contentevent1"
-        tools:layout_editor_absoluteY="110dp" />
-
     <LinearLayout
         android:id="@+id/buttonacc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="650dp">
+        app:layout_constraintTop_toBottomOf="@+id/belinnmap">
 
         <ImageView
             android:id="@+id/tidakbisa"
