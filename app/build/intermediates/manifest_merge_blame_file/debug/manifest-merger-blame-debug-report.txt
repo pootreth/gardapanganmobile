@@ -16,7 +16,7 @@
 12-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:7:18-37
 13
 14    <application
-14-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:9:5-62:19
+14-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:9:5-61:19
 15        android:allowBackup="true"
 15-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:10:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -112,11 +112,11 @@
 49-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:9-55
 49-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:19-52
 50        <activity
-50-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-44:59
+50-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-44:63
 51            android:name="com.yemima.gardapanganmobile.MainGoldActivity"
 51-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:13-45
-52            android:theme="@style/AppTheme.NoActionBar" />
-52-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:13-56
+52            android:theme="@style/AppThemeGold.NoActionBar" />
+52-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:13-60
 53        <activity android:name="com.yemima.gardapanganmobile.Register2Activity" />
 53-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:9-55
 53-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:19-52
@@ -127,30 +127,28 @@
 55-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:47:9-54
 55-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:47:19-51
 56        <activity
-56-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:48:9-51:59
+56-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:48:9-50:59
 57            android:name="com.yemima.gardapanganmobile.MainActivity"
 57-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:13-41
-58            android:label="@string/title_activity_main2"
-58-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:13-57
-59            android:theme="@style/AppTheme.NoActionBar" />
-59-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:13-56
-60        <activity
-60-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:52:9-61:20
-61            android:name="com.yemima.gardapanganmobile.WelcomeScreenActivity"
-61-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:53:13-50
-62            android:label="Garda Pangan" >
-62-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:54:13-41
-63            <intent-filter>
-63-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:56:13-60:29
-64                <action android:name="android.intent.action.MAIN" />
-64-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:57:17-69
-64-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:57:25-66
-65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:59:17-77
-66-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:59:27-74
-67            </intent-filter>
-68        </activity>
-69    </application>
-70
-71</manifest>
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:13-56
+59        <activity
+59-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:9-60:20
+60            android:name="com.yemima.gardapanganmobile.WelcomeScreenActivity"
+60-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:52:13-50
+61            android:label="Garda Pangan" >
+61-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:53:13-41
+62            <intent-filter>
+62-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:55:13-59:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:56:17-69
+63-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:56:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:58:17-77
+65-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:58:27-74
+66            </intent-filter>
+67        </activity>
+68    </application>
+69
+70</manifest>

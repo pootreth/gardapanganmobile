@@ -37,6 +37,8 @@ public class MainGoldActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_gold);
         Toolbar toolbar = findViewById(R.id.toolbargold);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setTitle("");
 
         fab=findViewById(R.id.floatingActionButton);
         fab.setOnClickListener(new View.OnClickListener() {

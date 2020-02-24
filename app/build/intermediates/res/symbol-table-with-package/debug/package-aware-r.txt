@@ -1002,6 +1002,7 @@ drawable avd_show_password
 drawable banner
 drawable banner_donasi
 drawable belinn
+drawable belinnmap
 drawable bronzemedal
 drawable button_default
 drawable button_disable
@@ -1019,11 +1020,16 @@ drawable design_snackbar_background
 drawable donasi
 drawable dp
 drawable dpbronze
+drawable dpbronzee
 drawable dpgold
+drawable dpgoldd
 drawable dropdown
 drawable edit
 drawable edit_photo
 drawable event
+drawable event1
+drawable event2
+drawable event3
 drawable finish
 drawable food
 drawable form_done
@@ -1042,6 +1048,7 @@ drawable individu
 drawable infobadges
 drawable invest
 drawable item_spinner
+drawable keputihmap
 drawable kurang
 drawable kurangg
 drawable logo
@@ -1072,6 +1079,7 @@ drawable onlinepayment
 drawable op_title
 drawable payment
 drawable primarasa
+drawable primarasamap
 drawable profile
 drawable qrcode
 drawable restoran
@@ -1148,7 +1156,7 @@ id bannerdonasi
 id barcode
 id barrier
 id beginning
-id belinn
+id belinnmap
 id blocking
 id bottom
 id bronze
@@ -1271,10 +1279,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView5
-id imageView6
 id imageView7
-id imageView8
 id imageView9
 id individu
 id info
@@ -1373,8 +1378,6 @@ id people
 id percent
 id perkiraannilai
 id pin
-id profilebronze
-id profilegold
 id progress_circular
 id progress_horizontal
 id radio
@@ -1451,6 +1454,9 @@ id taptap
 id telepon
 id text
 id text2
+id textEvent1
+id textEvent2
+id textEvent3
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -1708,6 +1714,8 @@ style AppTheme
 style AppTheme_AppBarOverlay
 style AppTheme_NoActionBar
 style AppTheme_PopupOverlay
+style AppThemeGold
+style AppThemeGold_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -1899,6 +1907,8 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style Overflow
+style OverflowGold
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

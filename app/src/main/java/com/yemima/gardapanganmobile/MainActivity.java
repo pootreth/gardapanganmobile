@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        toolbar.setTitle("");
+
 
         mulaidonasi1=findViewById(R.id.buttonmulai1);
         mulaidonasi1.setOnClickListener(new View.OnClickListener() {

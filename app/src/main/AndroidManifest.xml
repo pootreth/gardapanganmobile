@@ -41,13 +41,12 @@
         <activity android:name=".Register3Activity" />
         <activity
             android:name=".MainGoldActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppThemeGold.NoActionBar" />
         <activity android:name=".Register2Activity" />
         <activity android:name=".Register1Activity" />
         <activity android:name=".RegisterActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".WelcomeScreenActivity"

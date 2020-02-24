@@ -50,13 +50,12 @@
         <activity android:name="com.yemima.gardapanganmobile.Register3Activity" />
         <activity
             android:name="com.yemima.gardapanganmobile.MainGoldActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppThemeGold.NoActionBar" />
         <activity android:name="com.yemima.gardapanganmobile.Register2Activity" />
         <activity android:name="com.yemima.gardapanganmobile.Register1Activity" />
         <activity android:name="com.yemima.gardapanganmobile.RegisterActivity" />
         <activity
             android:name="com.yemima.gardapanganmobile.MainActivity"
-            android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.yemima.gardapanganmobile.WelcomeScreenActivity"
