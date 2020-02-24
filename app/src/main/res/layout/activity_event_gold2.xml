@@ -7,7 +7,7 @@
     tools:context=".EventGold2Activity">
 
     <ImageView
-        android:id="@+id/belinnmap"
+        android:id="@+id/keputihnmap"
         android:layout_width="410dp"
         android:layout_height="230dp"
         app:layout_constraintEnd_toEndOf="parent"
