@@ -1001,6 +1001,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable banner
 drawable banner_donasi
+drawable belinn
 drawable bronzemedal
 drawable button_default
 drawable button_disable
@@ -1018,6 +1019,7 @@ drawable design_snackbar_background
 drawable donasi
 drawable dp
 drawable dpbronze
+drawable dpgold
 drawable dropdown
 drawable edit
 drawable edit_photo
@@ -1026,6 +1028,7 @@ drawable finish
 drawable food
 drawable form_done
 drawable form_op
+drawable gebang
 drawable goldmedal
 drawable heart
 drawable ic_launcher_background
@@ -1042,6 +1045,9 @@ drawable item_spinner
 drawable kurang
 drawable kurangg
 drawable logo
+drawable lokasi1
+drawable lokasi2
+drawable lokasi3
 drawable love
 drawable money
 drawable mtrl_snackbar_background
@@ -1065,6 +1071,7 @@ drawable online_payment
 drawable onlinepayment
 drawable op_title
 drawable payment
+drawable primarasa
 drawable profile
 drawable qrcode
 drawable restoran
@@ -1141,6 +1148,7 @@ id bannerdonasi
 id barcode
 id barrier
 id beginning
+id belinn
 id blocking
 id bottom
 id bronze
@@ -1263,7 +1271,10 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id imageView7
+id imageView8
 id imageView9
 id individu
 id info
@@ -1362,7 +1373,8 @@ id people
 id percent
 id perkiraannilai
 id pin
-id profile
+id profilebronze
+id profilegold
 id progress_circular
 id progress_horizontal
 id radio

@@ -1,12 +1,23 @@
 package com.yemima.gardapanganmobile;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 
+import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -14,10 +25,16 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.Checkable;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +45,10 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText umur;
     private Button lanjut;
     private String job;
+    private TextView textspiner;
+    private Spinner spinner;
+    private String text;
+
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -50,7 +71,21 @@ public class RegisterActivity extends AppCompatActivity {
         public void afterTextChanged(Editable s) {
             if(!namadepan.getText().toString().isEmpty()&&!namabelakang.getText().toString().isEmpty()&&!nomorwa.getText().toString().isEmpty()&&!umur.getText().toString().isEmpty()){
                 if(nomorwa.length()>9 && umur.length()==2) {
-                    lanjut.setEnabled(true);
+                    final CheckBox box=findViewById(R.id.checkBox);
+
+
+                    box.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                        @Override
+                        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                            text = spinner.getSelectedItem().toString();
+                            if (!box.isChecked()||text.equals("Pekerjaan")){
+                                lanjut.setEnabled(false);
+                            }
+                            else{
+                                lanjut.setEnabled(true);
+                            }
+                        }
+                    });
                 }
                 else{
                     lanjut.setEnabled(false);
@@ -79,18 +114,21 @@ public class RegisterActivity extends AppCompatActivity {
         umur=findViewById(R.id.umur);
         lanjut=findViewById(R.id.button2);
 
-        Spinner spinner=findViewById(R.id.spinner);
+        spinner=findViewById(R.id.spinner);
         final List<String> pekerjaan=new ArrayList<>();
         pekerjaan.add("Pekerjaan");
         pekerjaan.add("Pelajar");
         pekerjaan.add("Mahasiswa");
         pekerjaan.add("Lain-lain");
 
+
+
         // Initializing an ArrayAdapter
         final ArrayAdapter<String> dataadapter = new ArrayAdapter<String>(
                 this,R.layout.spinner_item,pekerjaan){
             @Override
             public boolean isEnabled(int position){
+
                 if(position == 0)
                 {
                     // Disable the first item from Spinner
@@ -102,6 +140,7 @@ public class RegisterActivity extends AppCompatActivity {
                     return true;
                 }
             }
+
             @Override
             public View getDropDownView(int position, View convertView,
                                         ViewGroup parent) {
@@ -112,14 +151,18 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if(position == 0){
                     // Set the hint text color gray
+
                     tv.setTextColor(getResources().getColor(R.color.colorPrimaryOpacity));
                 }
                 else {
+
                     tv.setTextColor(getResources().getColor(R.color.colorPrimary));
                 }
                 return view;
             }
+
         };
+
 
         dataadapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spinner.setAdapter(dataadapter);
@@ -132,14 +175,13 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
 
-    }
-});
+            }
+        });
 
         namadepan.addTextChangedListener(textWatcher);
         namabelakang.addTextChangedListener(textWatcher);
         nomorwa.addTextChangedListener(textWatcher);
         umur.addTextChangedListener(textWatcher);
-
 
         lanjut.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -154,4 +196,10 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
+
+
+
 }

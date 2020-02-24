@@ -148,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:background="@drawable/button_selector"
-                android:enabled="true"
+                android:enabled="false"
                 android:saveEnabled="true"
                 android:text="KIRIM"
                 android:textColor="@android:color/white"

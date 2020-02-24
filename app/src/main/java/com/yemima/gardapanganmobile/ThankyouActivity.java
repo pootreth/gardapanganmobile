@@ -10,6 +10,10 @@ public class ThankyouActivity extends AppCompatActivity {
     private View animate;
 
     @Override
+    public void onBackPressed() {
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         try

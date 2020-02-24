@@ -18,8 +18,10 @@
             android:layout_height="81sp"
             android:background="@android:color/white"
             android:foregroundGravity="center"
+            android:visibility="visible"
             app:buttonGravity="top"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            tools:visibility="visible" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -34,7 +36,7 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/profile"
+        android:id="@+id/profilebronze"
         android:layout_width="41dp"
         android:layout_height="42dp"
         android:layout_gravity="right"

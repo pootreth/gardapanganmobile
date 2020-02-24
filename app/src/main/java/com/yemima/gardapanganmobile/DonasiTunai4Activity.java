@@ -27,6 +27,8 @@ public class DonasiTunai4Activity extends AppCompatActivity {
     private EditText jumlah;
     private String metode;
     private View finishdonasi;
+    private Spinner spinner;
+    private String text;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -48,7 +50,13 @@ public class DonasiTunai4Activity extends AppCompatActivity {
         @Override
         public void afterTextChanged(Editable s) {
             if(!tgltf.getText().toString().isEmpty()&&!jumlah.getText().toString().isEmpty()){
-                finishdonasi.setEnabled(true);
+                text = spinner.getSelectedItem().toString();
+                if (text.equals("Metode Pembayaran")){
+                    finishdonasi.setEnabled(false);
+                }
+                else{
+                    finishdonasi.setEnabled(true);
+                }
             }
             else{
                 finishdonasi.setEnabled(false);
@@ -71,7 +79,7 @@ public class DonasiTunai4Activity extends AppCompatActivity {
         jumlah=findViewById(R.id.jumlahtransfer1);
         finishdonasi=findViewById(R.id.sendconfirm);
 
-        Spinner spinner=findViewById(R.id.metodepembayaran);
+        spinner=findViewById(R.id.metodepembayaran);
         final List<String> op=new ArrayList<>();
         op.add("Metode Pembayaran");
         op.add("DANA");
@@ -108,6 +116,7 @@ public class DonasiTunai4Activity extends AppCompatActivity {
                     tv.setTextColor(getResources().getColor(R.color.colorPrimaryOpacity));
                 }
                 else {
+                    finishdonasi.setEnabled(true);
                     tv.setTextColor(getResources().getColor(R.color.colorPrimary));
                 }
                 return view;

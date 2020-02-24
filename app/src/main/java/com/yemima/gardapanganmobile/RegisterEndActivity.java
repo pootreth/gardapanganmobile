@@ -11,6 +11,10 @@ public class RegisterEndActivity extends AppCompatActivity {
     private View animate;
 
     @Override
+    public void onBackPressed() {
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //copas
