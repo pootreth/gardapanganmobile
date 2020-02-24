@@ -19,11 +19,11 @@
         android:id="@+id/buttonacc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
+        android:layout_marginBottom="40dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/belinnmap">
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/tidakbisa"
