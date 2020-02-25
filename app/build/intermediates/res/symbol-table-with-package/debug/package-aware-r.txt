@@ -1093,6 +1093,7 @@ drawable round_edittext
 drawable search_button
 drawable silvermedal
 drawable sop
+drawable sop1
 drawable spinner_background
 drawable tambah
 drawable team
@@ -1437,6 +1438,8 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sop1
+id sop2
 id spacer
 id spinner
 id spinnerbank

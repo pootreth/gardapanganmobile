@@ -172,6 +172,10 @@
         "source": "C:\\Users\\Yemima Sutanto\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sop1.png.flat",
+        "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\drawable\\sop1.png"
+    },
+    {
         "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Yemima Sutanto\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
