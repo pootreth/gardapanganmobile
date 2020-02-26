@@ -21,17 +21,17 @@
 
             <ImageView
                 android:id="@+id/keputihnmap"
-                android:layout_width="410dp"
-                android:layout_height="210dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
                 app:srcCompat="@drawable/keputihmap" />
 
             <ImageView
                 android:id="@+id/contenteventt2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="410dp"
                 android:layout_marginBottom="20dp"
                 android:scrollbarSize="1dp"
-                app:srcCompat="@drawable/contentevent1" />
+                app:srcCompat="@drawable/contentevent2" />
 
         </LinearLayout>
     </ScrollView>
@@ -58,7 +58,7 @@
             android:layout_height="410dp"
             android:layout_marginBottom="20dp"
             android:scrollbarSize="1dp"
-            app:srcCompat="@drawable/contentevent1" />
+            app:srcCompat="@drawable/contentevent2" />
 
     </LinearLayout>
 

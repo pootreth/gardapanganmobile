@@ -7,7 +7,7 @@
     tools:context=".EventGold3Activity">
 
     <ScrollView
-        android:id="@+id/contenteventgold1"
+        android:id="@+id/contenteventgold3"
         android:layout_width="match_parent"
         android:layout_height="540dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,9 +20,9 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/keputihnmap"
-                android:layout_width="410dp"
-                android:layout_height="210dp"
+                android:id="@+id/primarasamap"
+                android:layout_width="wrap_content"
+                android:layout_height="205dp"
                 app:srcCompat="@drawable/primarasamap" />
 
             <ImageView
@@ -31,13 +31,13 @@
                 android:layout_height="410dp"
                 android:layout_marginBottom="20dp"
                 android:scrollbarSize="1dp"
-                app:srcCompat="@drawable/contentevent1" />
+                app:srcCompat="@drawable/contentevent3" />
 
         </LinearLayout>
     </ScrollView>
 
     <LinearLayout
-        android:id="@+id/contentsplitgold1"
+        android:id="@+id/contentsplitgold3"
         android:layout_width="match_parent"
         android:layout_height="540dp"
         android:orientation="vertical"
@@ -48,8 +48,8 @@
 
         <ImageView
             android:id="@+id/primarasanmap"
-            android:layout_width="410dp"
-            android:layout_height="210dp"
+            android:layout_width="wrap_content"
+            android:layout_height="205dp"
             app:srcCompat="@drawable/primarasamap" />
 
         <ImageView
@@ -58,7 +58,7 @@
             android:layout_height="410dp"
             android:layout_marginBottom="20dp"
             android:scrollbarSize="1dp"
-            app:srcCompat="@drawable/contentevent1" />
+            app:srcCompat="@drawable/contentevent3" />
 
     </LinearLayout>
 

@@ -1032,6 +1032,8 @@ drawable chaat
 drawable chatt
 drawable check
 drawable contentevent1
+drawable contentevent2
+drawable contentevent3
 drawable contentsplit1
 drawable contentty
 drawable daftar
@@ -1191,6 +1193,8 @@ id bannerdonasi
 id barcode
 id barrier
 id beginning
+id belinmap
+id belinmapp
 id belinnmap
 id belinnmapp
 id blocking
