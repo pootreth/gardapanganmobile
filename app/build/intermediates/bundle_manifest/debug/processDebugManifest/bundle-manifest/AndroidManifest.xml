@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.yemima.gardapanganmobile.ChatActivity" />
         <activity android:name="com.yemima.gardapanganmobile.ThankyouActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiTunai4Activity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiTunai3Activity" />

@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ThankyouActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ThankyouActivity" />
         <activity android:name=".DonasiTunai4Activity" />
         <activity android:name=".DonasiTunai3Activity" />
         <activity android:name=".DonasiTunai2Activity" />
