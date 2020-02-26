@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/otwrate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    android:backgroundTint="#80000000"
+    android:backgroundTintMode="src_over"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/contentty2"
+        android:layout_width="350dp"
+        android:layout_height="420dp"
+        app:srcCompat="@drawable/windowrate" />
+
+    <EditText
+        android:id="@+id/tambahan"
+        android:layout_width="235dp"
+        android:layout_height="124dp"
+        android:layout_below="@+id/susunbintang"
+        android:layout_alignStart="@+id/contentty2"
+        android:layout_alignEnd="@+id/contentty2"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/tambahanrate"
+        android:fontFamily="@font/googlesans_regular"
+        android:gravity="top"
+        android:hint="Tambahan"
+        android:inputType="textLongMessage|text"
+        android:paddingStart="20dp"
+        android:paddingTop="14dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:srcCompat="@drawable/tambahanrate" />
+
+    <TextView
+        android:id="@+id/ratetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/contentty2"
+        android:layout_alignEnd="@+id/contentty2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/googlesans_bold"
+        android:gravity="center"
+        android:text="Beri kami tanggapanmu!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/susunbintang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratetext"
+        android:layout_alignStart="@+id/contentty2"
+        android:layout_alignEnd="@+id/contentty2"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTintMode="src_over"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/star1"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            app:srcCompat="@drawable/star1" />
+
+        <ImageView
+            android:id="@+id/star2"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/star2" />
+
+        <ImageView
+            android:id="@+id/star3"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/star3" />
+
+        <ImageView
+            android:id="@+id/star4"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/star4" />
+
+        <ImageView
+            android:id="@+id/star5"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/star5" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="235sp"
+        android:layout_height="48sp"
+        android:layout_below="@+id/tambahan"
+        android:layout_alignStart="@+id/contentty2"
+        android:layout_alignEnd="@+id/contentty2"
+        android:layout_alignBottom="@+id/contentty2"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/button_selector"
+        android:enabled="true"
+        android:saveEnabled="true"
+        android:text="KIRIM"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tambahan" />
+
+</RelativeLayout>

@@ -66,6 +66,7 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
+attr ambientEnabled
 attr arrowHeadLength
 attr arrowShaftLength
 attr autoCompleteTextViewStyle
@@ -111,10 +112,18 @@ attr buttonBarStyle
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
+attr buttonSize
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -147,6 +156,7 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
+attr circleCrop
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -169,6 +179,7 @@ attr colorControlNormal
 attr colorError
 attr colorPrimary
 attr colorPrimaryDark
+attr colorScheme
 attr colorSecondary
 attr colorSwitchThumbNormal
 attr commitIcon
@@ -277,6 +288,8 @@ attr iconStartPadding
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
+attr imageAspectRatio
+attr imageAspectRatioAdjust
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -297,6 +310,10 @@ attr itemTextColor
 attr keylines
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr layout
 attr layoutManager
 attr layout_anchor
@@ -373,8 +390,10 @@ attr listPreferredItemHeightLarge
 attr listPreferredItemHeightSmall
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
+attr liteMode
 attr logo
 attr logoDescription
+attr mapType
 attr materialButtonStyle
 attr materialCardViewStyle
 attr maxActionInlineWidth
@@ -416,6 +435,7 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -546,6 +566,14 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr umanoAnchorPoint
 attr umanoClipPanel
 attr umanoDragView
@@ -559,6 +587,7 @@ attr umanoScrollInterpolator
 attr umanoScrollableView
 attr umanoShadowHeight
 attr useCompatPadding
+attr useViewLifecycle
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -571,6 +600,7 @@ attr windowFixedWidthMinor
 attr windowMinWidthMajor
 attr windowMinWidthMinor
 attr windowNoTitle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_allow_stacked_button_bar
 bool abc_config_actionMenuItemAllCaps
@@ -621,6 +651,17 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color colorPrimaryOpacity
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1015,6 +1056,7 @@ drawable above_shadow
 drawable add
 drawable add_photo
 drawable addevent
+drawable ajakdonasi
 drawable avd_hide_password
 drawable avd_show_password
 drawable banner
@@ -1022,6 +1064,7 @@ drawable banner_donasi
 drawable belinn
 drawable belinnmap
 drawable below_shadow
+drawable bgmain
 drawable bronzemedal
 drawable button_default
 drawable button_disable
@@ -1029,8 +1072,28 @@ drawable button_selector
 drawable buttonmulai
 drawable camera
 drawable chaat
+drawable chatarea
 drawable chatt
 drawable check
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
 drawable contentevent1
 drawable contentevent2
 drawable contentevent3
@@ -1064,6 +1127,8 @@ drawable form_done
 drawable form_op
 drawable gebang
 drawable goldmedal
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
 drawable heart
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1075,6 +1140,7 @@ drawable iconqris
 drawable individu
 drawable infobadges
 drawable invest
+drawable isiajakan
 drawable item_spinner
 drawable keputihmap
 drawable kurang
@@ -1118,11 +1184,18 @@ drawable report
 drawable restoran
 drawable round_edittext
 drawable search_button
+drawable sendbutton
 drawable silvermedal
 drawable sop
 drawable sop1
 drawable spinner_background
+drawable star1
+drawable star2
+drawable star3
+drawable star4
+drawable star5
 drawable tambah
+drawable tambahanrate
 drawable team
 drawable tidakbisa
 drawable tidakbisa1
@@ -1135,6 +1208,7 @@ drawable transferdeskripsii
 drawable vegetables
 drawable view
 drawable water
+drawable windowrate
 font googlesans
 font googlesans_bold
 font googlesans_italic
@@ -1173,9 +1247,13 @@ id actions
 id activity_chooser_view_content
 id add
 id add_photo
+id adjust_height
+id adjust_width
 id age
 id ajakan
 id ajakan2
+id ajakandonasi
+id ajakdonasi
 id alamat
 id alertTitle
 id all
@@ -1206,6 +1284,7 @@ id bronzemedal
 id bronzemedals
 id button
 id button2
+id button3
 id buttonPanel
 id buttonbawah
 id buttonbawah1
@@ -1228,6 +1307,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id chatarea
 id chatgold
 id chatt
 id checkBox
@@ -1268,6 +1348,7 @@ id contentsplitgold3
 id contentsplitgoldd1
 id contentsplitt1
 id contentthx
+id contentty2
 id coordinator
 id custom
 id customPanel
@@ -1275,11 +1356,11 @@ id daftar
 id daftar1
 id daftar2
 id daftar9
-id daftargold
 id daftarr1
 id daftarrr1
 id dapoermantabmap
 id dapoermantabmapp
+id dark
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1348,8 +1429,10 @@ id heart
 id hidden
 id home
 id homeAsUp
+id hybrid
 id icon
 id icon_group
+id icon_only
 id iconqris
 id ifRoom
 id image
@@ -1361,6 +1444,7 @@ id imageView7
 id individu
 id info
 id invisible
+id isiajakan
 id italic
 id item_touch_helper_previous_elevation
 id jam_waktu
@@ -1380,6 +1464,7 @@ id lanjut
 id largeLabel
 id last_name
 id left
+id light
 id line1
 id line3
 id linearLayout2
@@ -1443,6 +1528,7 @@ id online_payment_detail
 id onlinepayment
 id onlinepaymentdetail
 id op_title
+id otwrate
 id outline
 id packed
 id parallax
@@ -1464,11 +1550,13 @@ id profile_editdp
 id progress_circular
 id progress_horizontal
 id radio
+id ratetext
 id report
 id resto
 id right
 id right_icon
 id right_side
+id satellite
 id save
 id save_image_matrix
 id save_non_transition_alpha
@@ -1522,12 +1610,18 @@ id src_atop
 id src_in
 id src_over
 id standard
+id star1
+id star2
+id star3
+id star4
+id star5
 id start
 id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
 id sumbermakanan
+id susunbintang
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -1539,6 +1633,7 @@ id tambahan
 id tap
 id taptap
 id telepon
+id terrain
 id text
 id text2
 id textEvent1
@@ -1608,6 +1703,7 @@ id view_offset_helper
 id visible
 id waktu_kedatangan
 id water
+id wide
 id withText
 id wrap
 id wrap_content
@@ -1619,6 +1715,7 @@ integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer google_play_services_version
 integer hide_password_duration
 integer mtrl_btn_anim_delay_ms
 integer mtrl_btn_anim_duration_ms
@@ -1691,6 +1788,7 @@ layout activity_sop
 layout activity_thankyou
 layout activity_usul_penerima
 layout activity_welcome_screen
+layout ajak_donasi
 layout content_main
 layout content_main_gold
 layout custom_action_badges
@@ -1722,7 +1820,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout gold
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1740,6 +1837,8 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout popupwindows
+layout popupwindows2
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -1794,6 +1893,24 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
@@ -2363,6 +2480,8 @@ styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom backgroundTint backgroundTintMode cornerRadius icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor strokeColor strokeWidth
 styleable MaterialCardView strokeColor strokeWidth
 styleable MaterialComponentsTheme bottomSheetDialogTheme bottomSheetStyle chipGroupStyle chipStandaloneStyle chipStyle colorAccent colorBackgroundFloating colorPrimary colorPrimaryDark colorSecondary editTextStyle floatingActionButtonStyle materialButtonStyle materialCardViewStyle navigationViewStyle scrimBackground snackbarButtonStyle tabStyle textAppearanceBody1 textAppearanceBody2 textAppearanceButton textAppearanceCaption textAppearanceHeadline1 textAppearanceHeadline2 textAppearanceHeadline3 textAppearanceHeadline4 textAppearanceHeadline5 textAppearanceHeadline6 textAppearanceOverline textAppearanceSubtitle1 textAppearanceSubtitle2 textInputStyle
@@ -2377,6 +2496,7 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SignInButton buttonSize colorScheme scopeUris
 styleable SlidingUpPanelLayout umanoAnchorPoint umanoClipPanel umanoDragView umanoFadeColor umanoFlingVelocity umanoInitialState umanoOverlay umanoPanelHeight umanoParallaxOffset umanoScrollInterpolator umanoScrollableView umanoShadowHeight
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth

@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".ChatActivity">
 
+    <EditText
+        android:id="@+id/chatarea"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:background="@drawable/chatarea"
+        android:fontFamily="@font/googlesans_regular"
+        android:hint="Masukan pesan Anda"
+        android:paddingStart="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="26dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/sendbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/chatarea"
+        app:layout_constraintTop_toTopOf="@+id/chatarea" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

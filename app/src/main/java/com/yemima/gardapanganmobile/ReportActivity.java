@@ -59,6 +59,8 @@ public class ReportActivity extends AppCompatActivity {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent pindahrr=new Intent(ReportActivity.this, MainGold2Activity.class);
+                startActivity(pindahrr);
                 finish();
             }
         });
