@@ -48,8 +48,8 @@
 
         <ImageView
             android:id="@+id/belinmapp"
-            android:layout_width="410dp"
-            android:layout_height="210dp"
+            android:layout_width="wrap_content"
+            android:layout_height="205dp"
             app:srcCompat="@drawable/belinnmap" />
 
         <ImageView

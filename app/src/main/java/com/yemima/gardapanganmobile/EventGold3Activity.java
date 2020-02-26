@@ -29,8 +29,8 @@ public class EventGold3Activity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         //beda
-        view1=findViewById(R.id.contenteventgold1);
-        view2=findViewById(R.id.contentsplitgold1);
+        view1=findViewById(R.id.contenteventgold3);
+        view2=findViewById(R.id.contentsplitgold3);
 
         final ImageView daftar=findViewById(R.id.daftar1);
         daftar.setOnClickListener(new View.OnClickListener() {

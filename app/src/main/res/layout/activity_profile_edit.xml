@@ -7,28 +7,26 @@
     tools:context=".ProfileEditActivity">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/profile_editdp"
         android:layout_width="98sp"
         android:layout_height="98sp"
-        android:layout_marginStart="156dp"
         android:layout_marginTop="120dp"
-        android:layout_marginEnd="157dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/edit_photo" />
+        app:srcCompat="@drawable/dp" />
 
     <TextView
         android:id="@+id/first_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/googlesans_bold"
         android:text="NAMA DEPAN"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toBottomOf="@+id/profile_editdp" />
 
     <EditText
         android:id="@+id/fname"
@@ -52,12 +50,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="74dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/googlesans_bold"
         android:text="NAMA BELAKANG"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toEndOf="@+id/first_name"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toBottomOf="@+id/profile_editdp" />
 
     <EditText
         android:id="@+id/lname"

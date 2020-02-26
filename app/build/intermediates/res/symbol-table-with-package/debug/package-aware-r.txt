@@ -1038,6 +1038,7 @@ drawable contentsplit1
 drawable contentty
 drawable daftar
 drawable daftar1
+drawable dapoermantabmap
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1253,6 +1254,8 @@ id contentevent1
 id contentevent2
 id contentevent3
 id contenteventgold1
+id contenteventgold2
+id contenteventgold3
 id contenteventgoldd1
 id contenteventt1
 id contenteventt2
@@ -1260,6 +1263,8 @@ id contentsplit1
 id contentsplit2
 id contentsplit3
 id contentsplitgold1
+id contentsplitgold2
+id contentsplitgold3
 id contentsplitgoldd1
 id contentsplitt1
 id contentthx
@@ -1273,6 +1278,8 @@ id daftar9
 id daftargold
 id daftarr1
 id daftarrr1
+id dapoermantabmap
+id dapoermantabmapp
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1351,7 +1358,6 @@ id imageView2
 id imageView3
 id imageView4
 id imageView7
-id imageView9
 id individu
 id info
 id invisible
@@ -1365,9 +1371,6 @@ id jumlahpenerima
 id jumlahporsi
 id jumlahtransfer
 id jumlahtransfer1
-id keputihmapp
-id keputihnmap
-id keputihnmapp
 id keterangantambahan
 id kurang
 id kurang2
@@ -1457,6 +1460,7 @@ id pin
 id primarasamap
 id primarasamapp
 id primarasanmap
+id profile_editdp
 id progress_circular
 id progress_horizontal
 id radio

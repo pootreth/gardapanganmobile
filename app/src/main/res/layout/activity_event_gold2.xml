@@ -7,7 +7,7 @@
     tools:context=".EventGold2Activity">
 
     <ScrollView
-        android:id="@+id/contenteventgold1"
+        android:id="@+id/contenteventgold2"
         android:layout_width="match_parent"
         android:layout_height="540dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,16 +20,16 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/keputihnmap"
-                android:layout_width="410dp"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/keputihmap" />
+                android:id="@+id/dapoermantabmap"
+                android:layout_width="wrap_content"
+                android:layout_height="205dp"
+                app:srcCompat="@drawable/dapoermantabmap" />
 
 
             <ImageView
                 android:id="@+id/contenteventgoldd1"
-                android:layout_width="415dp"
-                android:layout_height="500dp"
+                android:layout_width="wrap_content"
+                android:layout_height="410dp"
                 android:layout_marginBottom="20dp"
                 android:scrollbarSize="1dp"
                 app:srcCompat="@drawable/contentevent2" />
@@ -38,7 +38,7 @@
     </ScrollView>
 
     <LinearLayout
-        android:id="@+id/contentsplitgold1"
+        android:id="@+id/contentsplitgold2"
         android:layout_width="match_parent"
         android:layout_height="540dp"
         android:orientation="vertical"
@@ -48,10 +48,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/keputihmapp"
-            android:layout_width="400dp"
-            android:layout_height="210dp"
-            app:srcCompat="@drawable/keputihmap" />
+            android:id="@+id/dapoermantabmapp"
+            android:layout_width="wrap_content"
+            android:layout_height="205dp"
+            app:srcCompat="@drawable/dapoermantabmap" />
 
         <ImageView
             android:id="@+id/contentsplitgoldd1"

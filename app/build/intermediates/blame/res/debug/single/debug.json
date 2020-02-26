@@ -616,6 +616,10 @@
         "source": "C:\\Users\\Yemima Sutanto\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\drawable\\tooltip_frame_light.xml"
     },
     {
+        "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dapoermantabmap.jpg.flat",
+        "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\drawable\\dapoermantabmap.jpg"
+    },
+    {
         "merged": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transferbankdetail.png.flat",
         "source": "D:\\KULIAH\\Semester 6\\KP\\gardapanganmobile\\app\\src\\main\\res\\drawable\\transferbankdetail.png"
     },
