@@ -546,6 +546,18 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
+attr umanoAnchorPoint
+attr umanoClipPanel
+attr umanoDragView
+attr umanoFadeColor
+attr umanoFlingVelocity
+attr umanoInitialState
+attr umanoOverlay
+attr umanoPanelHeight
+attr umanoParallaxOffset
+attr umanoScrollInterpolator
+attr umanoScrollableView
+attr umanoShadowHeight
 attr useCompatPadding
 attr viewInflaterClass
 attr voiceIcon
@@ -672,6 +684,7 @@ color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -902,6 +915,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -994,6 +1011,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable above_shadow
 drawable add
 drawable add_photo
 drawable addevent
@@ -1003,6 +1021,7 @@ drawable banner
 drawable banner_donasi
 drawable belinn
 drawable belinnmap
+drawable below_shadow
 drawable bronzemedal
 drawable button_default
 drawable button_disable
@@ -1120,6 +1139,7 @@ id META
 id SHIFT
 id SYM
 id WelcomeScreen
+id action0
 id action_badges
 id action_bar
 id action_bar_activity_content
@@ -1152,6 +1172,7 @@ id alamat
 id alertTitle
 id all
 id always
+id anchored
 id angka
 id angka2
 id angka3
@@ -1175,10 +1196,10 @@ id bronzemedals
 id button
 id button2
 id buttonPanel
-id buttonacc
 id buttonmulai1
 id buttonmulai2
 id buttonmulai3
+id cancel_action
 id caption
 id caption1
 id caption2
@@ -1197,6 +1218,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id collapsed
 id confirmpasswd
 id container
 id content
@@ -1237,6 +1259,7 @@ id donasidetail
 id donasimakanancontent
 id donasitext
 id dp
+id drag_view
 id edit
 id editPasswd
 id editText
@@ -1245,12 +1268,14 @@ id email
 id emblem
 id end
 id endText
+id end_padder
 id endofdonasi
 id enterAlways
 id enterAlwaysCollapsed
 id event
 id exitUntilCollapsed
 id expand_activities_button
+id expanded
 id expanded_menu
 id fill
 id fill_horizontal
@@ -1278,6 +1303,7 @@ id gone
 id group_divider
 id groups
 id heart
+id hidden
 id home
 id homeAsUp
 id icon
@@ -1329,6 +1355,7 @@ id logo
 id lokasipenerima
 id love
 id masked
+id media_actions
 id meeting_point
 id menu_donasi
 id menu_donasi_makanan
@@ -1451,6 +1478,7 @@ id src_in
 id src_over
 id standard
 id start
+id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
@@ -1648,8 +1676,17 @@ layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
@@ -2005,9 +2042,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -2284,6 +2326,7 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+styleable SlidingUpPanelLayout umanoAnchorPoint umanoClipPanel umanoDragView umanoFadeColor umanoFlingVelocity umanoInitialState umanoOverlay umanoPanelHeight umanoParallaxOffset umanoScrollInterpolator umanoScrollableView umanoShadowHeight
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
