@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/contentty2"
-        android:layout_width="350dp"
+        android:layout_width="310dp"
         android:layout_height="420dp"
         app:srcCompat="@drawable/windowrate" />
 
@@ -22,9 +22,9 @@
         android:layout_below="@+id/susunbintang"
         android:layout_alignStart="@+id/contentty2"
         android:layout_alignEnd="@+id/contentty2"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="58dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
         android:background="@drawable/tambahanrate"
         android:fontFamily="@font/googlesans_regular"
         android:gravity="top"
@@ -43,13 +43,69 @@
         android:layout_alignStart="@+id/contentty2"
         android:layout_alignEnd="@+id/contentty2"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="0dp"
         android:fontFamily="@font/googlesans_bold"
         android:gravity="center"
         android:text="Beri kami tanggapanmu!"
         android:textColor="@color/colorPrimary"
         android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/susunbintangful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratetext"
+        android:layout_alignStart="@+id/contentty2"
+        android:layout_alignEnd="@+id/contentty2"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTintMode="src_over"
+        android:gravity="center"
+        android:visibility="invisible">
+
+
+        <ImageView
+            android:id="@+id/starf1"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/star_fill1" />
+
+        <ImageView
+            android:id="@+id/starf2"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/star_fill2" />
+
+        <ImageView
+            android:id="@+id/starf3"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/star_fill3" />
+
+        <ImageView
+            android:id="@+id/starf4"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/star_fill4" />
+
+        <ImageView
+            android:id="@+id/starf5"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="20dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/star_fill5" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/susunbintang"
@@ -60,10 +116,11 @@
         android:layout_alignEnd="@+id/contentty2"
         android:layout_gravity="center"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="0dp"
         android:backgroundTintMode="src_over"
-        android:gravity="center">
+        android:gravity="center"
+        android:visibility="visible">
 
 
         <ImageView
@@ -110,12 +167,13 @@
         android:layout_alignStart="@+id/contentty2"
         android:layout_alignEnd="@+id/contentty2"
         android:layout_alignBottom="@+id/contentty2"
-        android:layout_marginStart="57dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/button_selector"
         android:enabled="true"
+        android:fontFamily="@font/googlesans_medium"
         android:saveEnabled="true"
         android:text="KIRIM"
         android:textColor="@android:color/white"

@@ -1194,6 +1194,11 @@ drawable star2
 drawable star3
 drawable star4
 drawable star5
+drawable star_fill1
+drawable star_fill2
+drawable star_fill3
+drawable star_fill4
+drawable star_fill5
 drawable tambah
 drawable tambahanrate
 drawable team
@@ -1615,6 +1620,11 @@ id star2
 id star3
 id star4
 id star5
+id starf1
+id starf2
+id starf3
+id starf4
+id starf5
 id start
 id status_bar_latest_event_content
 id stretch
@@ -1622,6 +1632,7 @@ id submenuarrow
 id submit_area
 id sumbermakanan
 id susunbintang
+id susunbintangful
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
