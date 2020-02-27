@@ -32,6 +32,8 @@
         android:theme="@style/AppTheme" >
         <activity android:name="com.yemima.gardapanganmobile.MainGold2Activity" />
         <activity android:name="com.yemima.gardapanganmobile.ChatActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.RateActivity" />
+        <activity android:name="com.yemima.gardapanganmobile.AjakanDonasiActivity" />
         <activity android:name="com.yemima.gardapanganmobile.ThankyouActivity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiTunai4Activity" />
         <activity android:name="com.yemima.gardapanganmobile.DonasiTunai3Activity" />

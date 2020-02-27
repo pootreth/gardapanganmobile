@@ -18,11 +18,12 @@ public class MainGold2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        try
+        {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
         setContentView(R.layout.popupwindows);
-        Toolbar toolbar = findViewById(R.id.toolbargold);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        toolbar.setTitle("");
 
         otwrate=findViewById(R.id.otwrate);
         otwrate.setOnClickListener(new View.OnClickListener() {

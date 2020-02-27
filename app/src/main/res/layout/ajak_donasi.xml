@@ -43,7 +43,7 @@
         android:background="@drawable/button_selector"
         android:enabled="true"
         android:saveEnabled="true"
-        android:text="KIRIM"
+        android:text="DONASI SEKARANG"
         android:textColor="@android:color/white"
         android:textSize="12sp"
         android:textStyle="bold"

@@ -28,13 +28,14 @@ public class RateActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        try
+        {
+            this.getSupportActionBar().hide();
+        }
+        catch (NullPointerException e){}
         setContentView(R.layout.popupwindows2);
-        Toolbar toolbar = findViewById(R.id.toolbargold);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        toolbar.setTitle("");
 
-        ajakdonasi=findViewById(R.id.ajakdonasi);
+        ajakdonasi=findViewById(R.id.send);
         ajakdonasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

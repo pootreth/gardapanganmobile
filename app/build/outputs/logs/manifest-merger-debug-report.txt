@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\697f71c0c12135256cbfe98df498a7e4\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -42,16 +42,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Yemima Sutanto\.
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
-INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
 	package
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:5:5-43
 		INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
 		INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
 		INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:4:5-51
@@ -59,7 +59,7 @@ INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidMani
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-65:12
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:1-67:12
 		INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:2:11-69
@@ -68,7 +68,7 @@ ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifes
 	dist:instant
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:7:18-37
 application
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:9:5-63:19
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:9:5-65:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\c7eb9cd3508ac3959447c14fd76c9fb9\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -109,152 +109,160 @@ activity#com.yemima.gardapanganmobile.ChatActivity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:17:9-50
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:17:19-47
-activity#com.yemima.gardapanganmobile.ThankyouActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:18:9-54
+activity#com.yemima.gardapanganmobile.RateActivity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:18:9-50
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:18:19-51
-activity#com.yemima.gardapanganmobile.DonasiTunai4Activity
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:18:19-47
+activity#com.yemima.gardapanganmobile.AjakanDonasiActivity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:19:9-58
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:19:19-55
-activity#com.yemima.gardapanganmobile.DonasiTunai3Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:20:9-58
+activity#com.yemima.gardapanganmobile.ThankyouActivity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:20:9-54
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:20:19-55
-activity#com.yemima.gardapanganmobile.DonasiTunai2Activity
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:20:19-51
+activity#com.yemima.gardapanganmobile.DonasiTunai4Activity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:21:9-58
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:21:19-55
-activity#com.yemima.gardapanganmobile.DonasiTunai1Activity
+activity#com.yemima.gardapanganmobile.DonasiTunai3Activity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:22:9-58
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:22:19-55
+activity#com.yemima.gardapanganmobile.DonasiTunai2Activity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:23:9-58
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:23:19-55
+activity#com.yemima.gardapanganmobile.DonasiTunai1Activity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:24:9-58
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:24:19-55
 activity#com.yemima.gardapanganmobile.ReportActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:23:9-52
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:25:9-52
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:23:19-49
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:25:19-49
 activity#com.yemima.gardapanganmobile.EventGold3Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:24:9-56
-	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:24:19-53
-activity#com.yemima.gardapanganmobile.EventGold2Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:25:9-56
-	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:25:19-53
-activity#com.yemima.gardapanganmobile.EventGold1Activity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:26:9-56
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:26:19-53
+activity#com.yemima.gardapanganmobile.EventGold2Activity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:27:9-56
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:27:19-53
+activity#com.yemima.gardapanganmobile.EventGold1Activity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:28:19-53
 activity#com.yemima.gardapanganmobile.LoginActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:29:9-51
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:29:19-48
 activity#com.yemima.gardapanganmobile.DonasiEventActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:28:9-57
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:30:9-57
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:28:19-54
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:30:19-54
 activity#com.yemima.gardapanganmobile.DonasiRestoranActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:29:9-60
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:31:9-60
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:29:19-57
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:31:19-57
 activity#com.yemima.gardapanganmobile.DonasiIndividuActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:30:9-60
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:32:9-60
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:30:19-57
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:32:19-57
 activity#com.yemima.gardapanganmobile.UsulPenerimaActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:31:9-58
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:33:9-58
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:31:19-55
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:33:19-55
 activity#com.yemima.gardapanganmobile.DonasiMakananActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:32:9-59
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:34:9-59
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:32:19-56
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:34:19-56
 activity#com.yemima.gardapanganmobile.RequestPenjemputanActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:33:9-64
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:35:9-64
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:33:19-61
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:35:19-61
 activity#com.yemima.gardapanganmobile.Event3Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:34:9-52
-	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:34:19-49
-activity#com.yemima.gardapanganmobile.Event2Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:35:9-52
-	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:35:19-49
-activity#com.yemima.gardapanganmobile.Event1Activity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:36:9-52
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:36:19-49
+activity#com.yemima.gardapanganmobile.Event2Activity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:37:9-52
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:37:19-49
+activity#com.yemima.gardapanganmobile.Event1Activity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:38:9-52
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:38:19-49
 activity#com.yemima.gardapanganmobile.DonasiTunaiActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:37:9-57
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:37:19-54
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:39:19-54
 activity#com.yemima.gardapanganmobile.ProfileEditActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:38:9-57
-	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:38:19-54
-activity#com.yemima.gardapanganmobile.SOPActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:39:9-49
-	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:39:19-46
-activity#com.yemima.gardapanganmobile.BadgesPagesActivity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:40:9-57
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:40:19-54
-activity#com.yemima.gardapanganmobile.ProfileActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:9-53
+activity#com.yemima.gardapanganmobile.SOPActivity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:9-49
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:19-50
-activity#com.yemima.gardapanganmobile.RegisterEndActivity
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:19-46
+activity#com.yemima.gardapanganmobile.BadgesPagesActivity
 ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-57
 	android:name
 		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:19-54
+activity#com.yemima.gardapanganmobile.ProfileActivity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:9-53
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:19-50
+activity#com.yemima.gardapanganmobile.RegisterEndActivity
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:9-57
+	android:name
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:19-54
 activity#com.yemima.gardapanganmobile.Register3Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:9-55
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:9-55
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:19-52
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:19-52
 activity#com.yemima.gardapanganmobile.MainGoldActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:9-46:63
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:46:9-48:63
 	android:theme
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:46:13-60
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:48:13-60
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:13-45
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:47:13-45
 activity#com.yemima.gardapanganmobile.Register2Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:47:9-55
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:9-55
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:47:19-52
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:19-52
 activity#com.yemima.gardapanganmobile.Register1Activity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:48:9-55
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:9-55
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:48:19-52
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:19-52
 activity#com.yemima.gardapanganmobile.RegisterActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:9-54
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:9-54
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:19-51
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:19-51
 activity#com.yemima.gardapanganmobile.MainActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:9-52:59
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:52:9-54:59
 	android:theme
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:52:13-56
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:13-41
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:53:13-41
 activity#com.yemima.gardapanganmobile.WelcomeScreenActivity
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:53:9-62:20
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:55:9-64:20
 	android:label
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:55:13-41
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:57:13-41
 	tools:ignore
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:56:13-45
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:58:13-45
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:54:13-50
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:56:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:59:13-63:29
 action#android.intent.action.MAIN
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:62:17-77
 	android:name
-		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:62:27-74
 uses-sdk
 INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
