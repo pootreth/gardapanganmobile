@@ -55,12 +55,22 @@ public class RateActivity extends AppCompatActivity{
         starf3=findViewById(R.id.starf3);
         starf4=findViewById(R.id.starf4);
         starf5=findViewById(R.id.starf5);
+        ajakdonasi=findViewById(R.id.send);
 
         star1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 star1.setVisibility(View.INVISIBLE);
                 starf1.setVisibility(View.VISIBLE);
+                star2.setVisibility(View.VISIBLE);
+                starf2.setVisibility(View.INVISIBLE);
+                star3.setVisibility(View.VISIBLE);
+                starf3.setVisibility(View.INVISIBLE);
+                star4.setVisibility(View.VISIBLE);
+                starf4.setVisibility(View.INVISIBLE);
+                star5.setVisibility(View.VISIBLE);
+                starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
@@ -71,6 +81,13 @@ public class RateActivity extends AppCompatActivity{
                 starf1.setVisibility(View.VISIBLE);
                 star2.setVisibility(View.INVISIBLE);
                 starf2.setVisibility(View.VISIBLE);
+                star3.setVisibility(View.VISIBLE);
+                starf3.setVisibility(View.INVISIBLE);
+                star4.setVisibility(View.VISIBLE);
+                starf4.setVisibility(View.INVISIBLE);
+                star5.setVisibility(View.VISIBLE);
+                starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
         star3.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +99,11 @@ public class RateActivity extends AppCompatActivity{
                 starf2.setVisibility(View.VISIBLE);
                 star3.setVisibility(View.INVISIBLE);
                 starf3.setVisibility(View.VISIBLE);
+                star4.setVisibility(View.VISIBLE);
+                starf4.setVisibility(View.INVISIBLE);
+                star5.setVisibility(View.VISIBLE);
+                starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
         star4.setOnClickListener(new View.OnClickListener() {
@@ -95,9 +117,12 @@ public class RateActivity extends AppCompatActivity{
                 starf3.setVisibility(View.VISIBLE);
                 star4.setVisibility(View.INVISIBLE);
                 starf4.setVisibility(View.VISIBLE);
+                star5.setVisibility(View.VISIBLE);
+                starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
-        star1.setOnClickListener(new View.OnClickListener() {
+        star5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 star1.setVisibility(View.INVISIBLE);
@@ -110,14 +135,15 @@ public class RateActivity extends AppCompatActivity{
                 starf4.setVisibility(View.VISIBLE);
                 star5.setVisibility(View.INVISIBLE);
                 starf5.setVisibility(View.VISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
         starf1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                star1.setVisibility(View.VISIBLE);
-                starf1.setVisibility(View.INVISIBLE);
+                star1.setVisibility(View.INVISIBLE);
+                starf1.setVisibility(View.VISIBLE);
                 star2.setVisibility(View.VISIBLE);
                 starf2.setVisibility(View.INVISIBLE);
                 star3.setVisibility(View.VISIBLE);
@@ -126,54 +152,79 @@ public class RateActivity extends AppCompatActivity{
                 starf4.setVisibility(View.INVISIBLE);
                 star5.setVisibility(View.VISIBLE);
                 starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
         starf2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                star2.setVisibility(View.VISIBLE);
-                starf2.setVisibility(View.INVISIBLE);
+                star1.setVisibility(View.INVISIBLE);
+                starf1.setVisibility(View.VISIBLE);
+                star2.setVisibility(View.INVISIBLE);
+                starf2.setVisibility(View.VISIBLE);
                 star3.setVisibility(View.VISIBLE);
                 starf3.setVisibility(View.INVISIBLE);
                 star4.setVisibility(View.VISIBLE);
                 starf4.setVisibility(View.INVISIBLE);
                 star5.setVisibility(View.VISIBLE);
                 starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
         starf3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                star3.setVisibility(View.VISIBLE);
-                starf3.setVisibility(View.INVISIBLE);
+                star1.setVisibility(View.INVISIBLE);
+                starf1.setVisibility(View.VISIBLE);
+                star2.setVisibility(View.INVISIBLE);
+                starf2.setVisibility(View.VISIBLE);
+                star3.setVisibility(View.INVISIBLE);
+                starf3.setVisibility(View.VISIBLE);
                 star4.setVisibility(View.VISIBLE);
                 starf4.setVisibility(View.INVISIBLE);
                 star5.setVisibility(View.VISIBLE);
                 starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
         starf4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                star4.setVisibility(View.VISIBLE);
-                starf4.setVisibility(View.INVISIBLE);
+                star1.setVisibility(View.INVISIBLE);
+                starf1.setVisibility(View.VISIBLE);
+                star2.setVisibility(View.INVISIBLE);
+                starf2.setVisibility(View.VISIBLE);
+                star3.setVisibility(View.INVISIBLE);
+                starf3.setVisibility(View.VISIBLE);
+                star4.setVisibility(View.INVISIBLE);
+                starf4.setVisibility(View.VISIBLE);
                 star5.setVisibility(View.VISIBLE);
                 starf5.setVisibility(View.INVISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
         starf5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                star5.setVisibility(View.VISIBLE);
-                starf5.setVisibility(View.INVISIBLE);
+                star1.setVisibility(View.INVISIBLE);
+                starf1.setVisibility(View.VISIBLE);
+                star2.setVisibility(View.INVISIBLE);
+                starf2.setVisibility(View.VISIBLE);
+                star3.setVisibility(View.INVISIBLE);
+                starf3.setVisibility(View.VISIBLE);
+                star4.setVisibility(View.INVISIBLE);
+                starf4.setVisibility(View.VISIBLE);
+                star5.setVisibility(View.INVISIBLE);
+                starf5.setVisibility(View.VISIBLE);
+                ajakdonasi.setEnabled(true);
             }
         });
 
-        ajakdonasi=findViewById(R.id.send);
+
         ajakdonasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
