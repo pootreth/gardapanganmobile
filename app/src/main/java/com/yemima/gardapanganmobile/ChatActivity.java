@@ -4,8 +4,10 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class ChatActivity extends AppCompatActivity {
+    private TextView chat;
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -23,5 +25,6 @@ public class ChatActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        chat=findViewById(R.id.chatarea);
     }
 }

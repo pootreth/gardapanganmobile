@@ -7,198 +7,198 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="21"
-9-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml
+9-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="29" />
-10-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml
+10-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml
 11
 12    <dist:module dist:instant="true" />
-12-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:7:5-40
-12-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:7:18-37
+12-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:7:5-40
+12-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:7:18-37
 13
 14    <!-- Include required permissions for Google Maps API to run. -->
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 21
 22    <application
-22-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:9:5-65:19
+22-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:9:5-65:19
 23        android:allowBackup="true"
-23-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:10:9-35
+23-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:10:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.0.1] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+24-->[androidx.core:core:1.0.1] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-26-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:11:9-43
+26-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:11:9-43
 27        android:label="@string/app_name"
-27-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:12:9-41
+27-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:12:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:13:9-54
+28-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:13:9-54
 29        android:supportsRtl="true"
-29-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:14:9-35
+29-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:14:9-35
 30        android:testOnly="true"
 31        android:theme="@style/AppTheme" >
-31-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:15:9-40
+31-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:15:9-40
 32        <activity android:name="com.yemima.gardapanganmobile.MainGold2Activity" />
-32-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:16:9-64
-32-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:16:19-52
+32-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:16:9-64
+32-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:16:19-52
 33        <activity android:name="com.yemima.gardapanganmobile.ChatActivity" />
-33-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:17:9-50
-33-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:17:19-47
+33-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:17:9-50
+33-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:17:19-47
 34        <activity android:name="com.yemima.gardapanganmobile.RateActivity" />
-34-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:18:9-50
-34-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:18:19-47
+34-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:18:9-50
+34-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:18:19-47
 35        <activity android:name="com.yemima.gardapanganmobile.AjakanDonasiActivity" />
-35-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:19:9-58
-35-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:19:19-55
+35-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:19:9-58
+35-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:19:19-55
 36        <activity android:name="com.yemima.gardapanganmobile.ThankyouActivity" />
-36-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:20:9-54
-36-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:20:19-51
+36-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:20:9-54
+36-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:20:19-51
 37        <activity android:name="com.yemima.gardapanganmobile.DonasiTunai4Activity" />
-37-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:21:9-58
-37-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:21:19-55
+37-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:21:9-58
+37-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:21:19-55
 38        <activity android:name="com.yemima.gardapanganmobile.DonasiTunai3Activity" />
-38-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:22:9-58
-38-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:22:19-55
+38-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:22:9-58
+38-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:22:19-55
 39        <activity android:name="com.yemima.gardapanganmobile.DonasiTunai2Activity" />
-39-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:23:9-58
-39-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:23:19-55
+39-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:23:9-58
+39-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:23:19-55
 40        <activity android:name="com.yemima.gardapanganmobile.DonasiTunai1Activity" />
-40-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:24:9-58
-40-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:24:19-55
+40-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:24:9-58
+40-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:24:19-55
 41        <activity android:name="com.yemima.gardapanganmobile.ReportActivity" />
-41-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:25:9-52
-41-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:25:19-49
+41-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:25:9-52
+41-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:25:19-49
 42        <activity android:name="com.yemima.gardapanganmobile.EventGold3Activity" />
-42-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:26:9-56
-42-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:26:19-53
+42-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:26:9-56
+42-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:26:19-53
 43        <activity android:name="com.yemima.gardapanganmobile.EventGold2Activity" />
-43-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:27:9-56
-43-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:27:19-53
+43-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:27:9-56
+43-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:27:19-53
 44        <activity android:name="com.yemima.gardapanganmobile.EventGold1Activity" />
-44-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:28:9-56
-44-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:28:19-53
+44-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:28:9-56
+44-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:28:19-53
 45        <activity android:name="com.yemima.gardapanganmobile.LoginActivity" />
-45-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:29:9-51
-45-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:29:19-48
+45-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:29:9-51
+45-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:29:19-48
 46        <activity android:name="com.yemima.gardapanganmobile.DonasiEventActivity" />
-46-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:30:9-57
-46-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:30:19-54
+46-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:30:9-57
+46-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:30:19-54
 47        <activity android:name="com.yemima.gardapanganmobile.DonasiRestoranActivity" />
-47-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:31:9-60
-47-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:31:19-57
+47-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:31:9-60
+47-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:31:19-57
 48        <activity android:name="com.yemima.gardapanganmobile.DonasiIndividuActivity" />
-48-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:32:9-60
-48-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:32:19-57
+48-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:32:9-60
+48-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:32:19-57
 49        <activity android:name="com.yemima.gardapanganmobile.UsulPenerimaActivity" />
-49-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:33:9-58
-49-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:33:19-55
+49-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:33:9-58
+49-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:33:19-55
 50        <activity android:name="com.yemima.gardapanganmobile.DonasiMakananActivity" />
-50-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:34:9-59
-50-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:34:19-56
+50-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:34:9-59
+50-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:34:19-56
 51        <activity android:name="com.yemima.gardapanganmobile.RequestPenjemputanActivity" />
-51-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:35:9-64
-51-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:35:19-61
+51-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:35:9-64
+51-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:35:19-61
 52        <activity android:name="com.yemima.gardapanganmobile.Event3Activity" />
-52-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:36:9-52
-52-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:36:19-49
+52-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:36:9-52
+52-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:36:19-49
 53        <activity android:name="com.yemima.gardapanganmobile.Event2Activity" />
-53-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:37:9-52
-53-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:37:19-49
+53-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:37:9-52
+53-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:37:19-49
 54        <activity android:name="com.yemima.gardapanganmobile.Event1Activity" />
-54-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:38:9-52
-54-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:38:19-49
+54-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:38:9-52
+54-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:38:19-49
 55        <activity android:name="com.yemima.gardapanganmobile.DonasiTunaiActivity" />
-55-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:39:9-57
-55-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:39:19-54
+55-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:39:9-57
+55-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:39:19-54
 56        <activity android:name="com.yemima.gardapanganmobile.ProfileEditActivity" />
-56-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:40:9-57
-56-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:40:19-54
+56-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:40:9-57
+56-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:40:19-54
 57        <activity android:name="com.yemima.gardapanganmobile.SOPActivity" />
-57-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:41:9-49
-57-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:41:19-46
+57-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:9-49
+57-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:41:19-46
 58        <activity android:name="com.yemima.gardapanganmobile.BadgesPagesActivity" />
-58-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-57
-58-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:42:19-54
+58-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:9-57
+58-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:42:19-54
 59        <activity android:name="com.yemima.gardapanganmobile.ProfileActivity" />
-59-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:43:9-53
-59-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:43:19-50
+59-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:9-53
+59-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:43:19-50
 60        <activity android:name="com.yemima.gardapanganmobile.RegisterEndActivity" />
-60-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:44:9-57
-60-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:44:19-54
+60-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:9-57
+60-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:44:19-54
 61        <activity android:name="com.yemima.gardapanganmobile.Register3Activity" />
-61-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:45:9-55
-61-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:45:19-52
+61-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:9-55
+61-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:45:19-52
 62        <activity
-62-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:46:9-48:63
+62-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:46:9-48:63
 63            android:name="com.yemima.gardapanganmobile.MainGoldActivity"
-63-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:47:13-45
+63-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:47:13-45
 64            android:theme="@style/AppThemeGold.NoActionBar" />
-64-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:48:13-60
+64-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:48:13-60
 65        <activity android:name="com.yemima.gardapanganmobile.Register2Activity" />
-65-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:49:9-55
-65-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:49:19-52
+65-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:9-55
+65-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:49:19-52
 66        <activity android:name="com.yemima.gardapanganmobile.Register1Activity" />
-66-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:50:9-55
-66-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:50:19-52
+66-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:9-55
+66-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:50:19-52
 67        <activity android:name="com.yemima.gardapanganmobile.RegisterActivity" />
-67-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:51:9-54
-67-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:51:19-51
+67-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:9-54
+67-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:51:19-51
 68        <activity
-68-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:52:9-54:59
+68-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:52:9-54:59
 69            android:name="com.yemima.gardapanganmobile.MainActivity"
-69-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:53:13-41
+69-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:53:13-41
 70            android:theme="@style/AppTheme.NoActionBar" />
-70-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:54:13-56
+70-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:54:13-56
 71        <activity
-71-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:55:9-64:20
+71-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:55:9-64:20
 72            android:name="com.yemima.gardapanganmobile.WelcomeScreenActivity"
-72-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:56:13-50
+72-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:56:13-50
 73            android:label="Garda Pangan" >
-73-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:57:13-41
+73-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:57:13-41
 74            <intent-filter>
-74-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:59:13-63:29
+74-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:59:13-63:29
 75                <action android:name="android.intent.action.MAIN" />
-75-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:60:17-69
-75-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:60:25-66
+75-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:60:17-69
+75-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:60:25-66
 76
 77                <category android:name="android.intent.category.LAUNCHER" />
-77-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:62:17-77
-77-->D:\Projects\Android\KP_gardapanganmobile\app\src\main\AndroidManifest.xml:62:27-74
+77-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:62:17-77
+77-->D:\KULIAH\Semester 6\KP\gardapanganmobile\app\src\main\AndroidManifest.xml:62:27-74
 78            </intent-filter>
 79        </activity>
 80        <!-- Needs to be explicitly declared on P+ -->
 81        <uses-library
-81-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+81-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 82            android:name="org.apache.http.legacy"
-82-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+82-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 83            android:required="false" />
-83-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+83-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 84
 85        <activity
-85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 87            android:exported="false"
-87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 89
 90        <meta-data
-90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\4c4ccd8c034ecebdfd6c3a3adfbf6326\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\67e9f3c5e1654bd8053602a13d823b2d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 91            android:name="com.google.android.gms.version"
-91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\4c4ccd8c034ecebdfd6c3a3adfbf6326\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\67e9f3c5e1654bd8053602a13d823b2d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 92            android:value="@integer/google_play_services_version" />
-92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\I Gede Agung\.gradle\caches\transforms-2\files-2.1\4c4ccd8c034ecebdfd6c3a3adfbf6326\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Yemima Sutanto\.gradle\caches\transforms-2\files-2.1\67e9f3c5e1654bd8053602a13d823b2d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 93    </application>
 94
 95</manifest>

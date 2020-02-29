@@ -224,7 +224,6 @@ public class RateActivity extends AppCompatActivity{
             }
         });
 
-
         ajakdonasi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
